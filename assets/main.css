@@ -1,0 +1,54 @@
+.lightpinkish {
+  background-color: rgba(180, 140, 252, 0.1);
+}
+.aquaColor {
+  background: rgba(78, 241, 224, 0.1);
+}
+.lightyellow {
+  background-color: rgba(255, 203, 47, 0.1);
+}
+.lightpinkish2 {
+  background-color: rgba(255, 4, 117, 0.03);
+}
+.lineartext {
+  background: linear-gradient(to right, white, rgb(255, 4, 146));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lineartext2 {
+  background: linear-gradient(to right, #2c1762, rgb(255, 4, 146));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.translinear {
+  background: linear-gradient(to right, #2c1762 50%, rgb(255, 4, 146));
+}
+.translinear2 {
+  background: linear-gradient(to bottom, #2c1762 50%, rgb(255, 4, 146));
+}
+.wavy {
+  background-image: url(https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/64628f1aba6705db8e3715ce_curved%20shape.webp);
+  background-position: center;
+  background-size: cover;
+}
+.wavy2 {
+  background-image: url(https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/6462a822d2b1149dcd5cba22_Spline%20bg.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.carb {
+  background-image: url(https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/6463492c794219e8d0ee923c_Ellipse%203.webp);
+  background-position: center;
+  background-size: cover;
+}
+.blurr {
+  background-color: rgba(104, 75, 179, 0.458) !important;
+  box-shadow: rgba(0, 0, 0, 0.14) 2px 10px 10px !important;
+}
+.blurr2 {
+  backdrop-filter: blur(5px);
+  background-color: rgba(104, 75, 179, 0.458) !important;
+  box-shadow: rgba(0, 0, 0, 0.14) 2px 10px 10px !important;
+}
+/*box-shadow: rgba(0, 0, 0, 0.14) 2px 10px 10px !important;*/
