@@ -18,7 +18,7 @@
                 src="/logo/line.svg"
               ></v-img>
             </div>
-            <div class="text-center secondary--text">Flexi Unions Bank</div>
+            <div class="text-center secondary--text">Deluxe Integrity Bank</div>
           </VCardText>
           <VCardText class="mx-0 px-0">
             <p class="white--text text--h6 text-center text-capitalize">
@@ -511,7 +511,7 @@ export default {
       account: '',
       ownership: '',
       terms: '',
-      termsTemplate: `By checking this box, I acknowledge that I have read, understood, and agree to abide by the terms and conditions outlined by Flexi Unions Bank. I understand that these terms govern my use of Flexi Unions Bank's banking services, including account access, transactions, and data privacy. I accept any future updates or modifications to these terms.`,
+      termsTemplate: `By checking this box, I acknowledge that I have read, understood, and agree to abide by the terms and conditions outlined by Deluxe Integrity Bank. I understand that these terms govern my use of Deluxe Integrity Bank's banking services, including account access, transactions, and data privacy. I accept any future updates or modifications to these terms.`,
     }
   },
   computed: {

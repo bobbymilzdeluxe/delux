@@ -14,8 +14,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - Flexi Unions Bank',
-    title: 'Flexi Unions Bank',
+    titleTemplate: '%s - Deluxe Integrity Bank',
+    title: 'Deluxe Integrity Bank',
     htmlAttrs: {
       lang: 'en',
     },
@@ -56,19 +56,19 @@ export default {
   pwa: {
     meta: {
       theme_color: '#2C1762',
-      ogTitle: 'Flexi Unions Bank',
+      ogTitle: 'Deluxe Integrity Bank',
       description:
-        'Flexi Unions Bank empowers millions of users in over 140 countries to bank in a simple and transparent way.',
+        'Deluxe Integrity Bank empowers millions of users in over 140 countries to bank in a simple and transparent way.',
       ogDescription:
-        'Flexi Unions Bank empowers millions of users in over 140 countries to bank in a simple and transparent way.',
+        'Deluxe Integrity Bank empowers millions of users in over 140 countries to bank in a simple and transparent way.',
       twitterCard: 'summary_large_image',
     },
     manifest: {
       lang: 'en',
-      name: 'Flexi Unions Bank',
-      short_name: 'Flexi Unions Bank',
+      name: 'Deluxe Integrity Bank',
+      short_name: 'Deluxe Integrity Bank',
       description:
-        'Flexi Unions Bank empowers millions of users in over 140 countries to bank in a simple and transparent way.',
+        'Deluxe Integrity Bank empowers millions of users in over 140 countries to bank in a simple and transparent way.',
     },
   },
 

@@ -1,4 +1,4 @@
-# Flexi Unions Bank
+# Deluxe Integrity Bank
 
 ## Build Setup
 

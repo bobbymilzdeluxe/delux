@@ -85,7 +85,8 @@
               <p
                 class="text-md-h3 text-center text-md-left text-h4 accent--text font-weight-bold"
               >
-                Stay in control of your money with a Flexi Unions Bank account
+                Stay in control of your money with a Deluxe Integrity Bank
+                account
               </p>
             </VCol>
             <VCol
@@ -176,7 +177,7 @@
         class="text-capitalize"
         large
         depressed
-        >Open Flexi Unions Bank Account</VBtn
+        >Open Deluxe Integrity Bank Account</VBtn
       >
     </div>
 
@@ -200,7 +201,7 @@
               >
                 We make access to loans simple and easy. No guarantors,
                 collaterals or long forms. Apply 24/7 and receive funds in your
-                Flexi Unions Bank account instantly. Unlock higher loan amounts
+                Deluxe Integrity Bank account instantly. Unlock higher loan amounts
                 and lower interest rates by repaying loans on time.
               </p>
               <p>
@@ -311,8 +312,8 @@
                   Shop now, pay later for pretty much anything
                 </p>
                 <p class="text-h6 text-md-h5 text1--text font-weight-regular">
-                  Buy anything, shop anywhere, pay with Flexi Unions Bank. This
-                  feature lets you spread the cost of anything into 4
+                  Buy anything, shop anywhere, pay with Deluxe Integrity Bank.
+                  This feature lets you spread the cost of anything into 4
                   installments at 0% interest.
                 </p>
                 <p>
@@ -658,27 +659,27 @@ export default {
         {
           name: 'Michael Patel',
           pic: '/images/pic1.jpeg',
-          text: `I was skeptical at first, but Flexi Unions Bank exceeded my expectations. The virtual card and secure transactions give me peace of mind. It's become an indispensable tool in my daily life.`,
+          text: `I was skeptical at first, but Deluxe Integrity Bank exceeded my expectations. The virtual card and secure transactions give me peace of mind. It's become an indispensable tool in my daily life.`,
         },
         {
           name: 'Alex Turner',
           pic: '/images/pic2.jpeg',
-          text: `I've tried various financial platforms, but Flexi Unions Bank is on another level. From budgeting tools to real-time expense tracking, it's the all-in-one solution I've been searching for. Managing my money has never been this easy!`,
+          text: `I've tried various financial platforms, but Deluxe Integrity Bank is on another level. From budgeting tools to real-time expense tracking, it's the all-in-one solution I've been searching for. Managing my money has never been this easy!`,
         },
         {
           name: 'Sophie Lewis',
           pic: '/images/pic3.jpg',
-          text: `I've tried a few expense-tracking apps, but Flexi Unions Bank stands out. Its ability to categorize expenses automatically and generate insightful reports saves me so much time. I'm in control of my finances like never before!`,
+          text: `I've tried a few expense-tracking apps, but Deluxe Integrity Bank stands out. Its ability to categorize expenses automatically and generate insightful reports saves me so much time. I'm in control of my finances like never before!`,
         },
         {
           name: 'Grace Kim',
           pic: '/images/pic4.jpeg',
-          text: `As a busy professional, Flexi Unions Bank's is a game-changer. I can manage my finances on the go, and the real-time notifications keep me updated. It's reliable and efficient – exactly what I need in a financial app.`,
+          text: `As a busy professional, Deluxe Integrity Bank's is a game-changer. I can manage my finances on the go, and the real-time notifications keep me updated. It's reliable and efficient – exactly what I need in a financial app.`,
         },
         {
           name: 'Ryan Foster',
           pic: '/images/pic5.jpg',
-          text: `Flexi Unions Bank has made budgeting a breeze. The automatic categorization and visual representation of my spending make it easy to stay on top of my financial goals. Truly a user-friendly financial companion!`,
+          text: `Deluxe Integrity Bank has made budgeting a breeze. The automatic categorization and visual representation of my spending make it easy to stay on top of my financial goals. Truly a user-friendly financial companion!`,
         },
       ]
     },

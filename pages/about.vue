@@ -48,14 +48,14 @@
               <div
                 class="grey--text text-subtitle-2 text-md-subtitle-1 text--darken-2"
               >
-                Welcome to Flexi Unions Bank: Redefining Your Banking Experience
-                At Flexi Unions Bank, we transcend the traditional boundaries of
-                banking to offer you a revolutionary online banking experience.
-                We're not just a bank; we're your financial partner committed to
-                making banking simpler, smarter, and more tailored to your
-                unique needs.
+                Welcome to Deluxe Integrity Bank: Redefining Your Banking
+                Experience At Deluxe Integrity Bank, we transcend the
+                traditional boundaries of banking to offer you a revolutionary
+                online banking experience. We're not just a bank; we're your
+                financial partner committed to making banking simpler, smarter,
+                and more tailored to your unique needs.
                 <p>Who We Are:</p>
-                Flexi Unions Bank is a fintech trailblazer, blending
+                Deluxe Integrity Bank is a fintech trailblazer, blending
                 cutting-edge technology with a customer-centric approach. Our
                 mission is to empower you with seamless access to financial
                 services, ensuring you have the tools you need to manage your
@@ -67,9 +67,9 @@
                 simplify your financial life.
                 <br />
                 2. <strong>Transparent Banking:</strong> Say goodbye to hidden
-                fees and complicated terms. At Flexi Unions Bank, transparency
-                is paramount. We're committed to providing clear, upfront
-                information about your accounts, transactions, and any
+                fees and complicated terms. At Deluxe Integrity Bank,
+                transparency is paramount. We're committed to providing clear,
+                upfront information about your accounts, transactions, and any
                 associated costs.
                 <br />
                 3. <strong>Customer-Centric Focus:</strong> Your satisfaction is
@@ -85,19 +85,19 @@
               <div
                 class="grey--text text-subtitle-2 text-md-subtitle-1 text--darken-2"
               >
-                Empowering Your Financial Journey: Flexi Unions Bank's Mission
-                Unveiled At Flexi Unions Bank, our mission is not just to be a
-                bank but to be your steadfast companion on your financial
-                journey. We understand that banking is more than transactions;
-                it's about enabling dreams, securing futures, and simplifying
-                the complex world of finance. Here's a glimpse into the
-                heartbeat of our mission:
+                Empowering Your Financial Journey: Deluxe Integrity Bank's
+                Mission Unveiled At Deluxe Integrity Bank, our mission is not
+                just to be a bank but to be your steadfast companion on your
+                financial journey. We understand that banking is more than
+                transactions; it's about enabling dreams, securing futures, and
+                simplifying the complex world of finance. Here's a glimpse into
+                the heartbeat of our mission:
 
                 <br />
-                1. <strong>Financial Inclusion:</strong> Flexi Unions Bank is
-                committed to breaking down barriers and ensuring that everyone
-                has access to essential financial services. We believe in
-                inclusivity, empowering individuals from all walks of life to
+                1. <strong>Financial Inclusion:</strong> Deluxe Integrity Bank
+                is committed to breaking down barriers and ensuring that
+                everyone has access to essential financial services. We believe
+                in inclusivity, empowering individuals from all walks of life to
                 participate in the global economy.
                 <br />
                 2. <strong>Technological Empowerment::</strong> Our mission
@@ -108,7 +108,7 @@
                 effortlessly.
                 <br />
                 3. <strong>Financial Wellness:</strong> Your financial
-                well-being is at the core of our mission. Flexi Unions Bank
+                well-being is at the core of our mission. Deluxe Integrity Bank
                 strives to be more than just a custodian of your funds; we
                 aspire to be a partner in your financial wellness. From
                 personalized financial insights to tools that help you save and
@@ -260,19 +260,19 @@
               <p
                 class="accent--text text-h5 text-center text-md-h3 font-weight-bold"
               >
-                Join the Flexi Unions Bank revolution
+                Join the Deluxe Integrity Bank revolution
               </p>
               <p
                 class="grey--text text-center text-subtitle-2 text-md-subtitle-1 text--darken-2"
               >
-                Be part of the solution. Join Flexi Unions Bank’s mission to
+                Be part of the solution. Join Deluxe Integrity Bank’s mission to
                 make credit accessible to all
               </p>
             </VCol>
             <VCol cols="12">
               <div class="text-center mx-auto">
                 <VBtn color="primary" large depressed
-                  >Visit Flexi Unions Bank careers</VBtn
+                  >Visit Deluxe Integrity Bank careers</VBtn
                 >
               </div>
             </VCol>
@@ -380,7 +380,7 @@ export default {
     },
   },
   head: {
-    titleTemplate: 'About Us - Flexi Unions Bank',
+    titleTemplate: 'About Us - Deluxe Integrity Bank',
   },
 }
 </script>

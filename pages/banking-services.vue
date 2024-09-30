@@ -104,7 +104,7 @@
         >
           <div>
             <p class="text-h5 text-md-h4 font-weight-medium white--text">
-              I found out about Flexi Unions Bank in 2018, on Twitter or
+              I found out about Deluxe Integrity Bank in 2018, on Twitter or
               somewhere on social media. It was this app where you could sign up
               and get instant loans. I tried it and it worked. Subsequently,
               when I needed a quick loan I knew I could always go to Flexi
@@ -135,7 +135,7 @@ export default {
     }
   },
   head: {
-    titleTemplate: 'Banking Services - Flexi Unions Bank',
+    titleTemplate: 'Banking Services - Deluxe Integrity Bank',
   },
 }
 </script>

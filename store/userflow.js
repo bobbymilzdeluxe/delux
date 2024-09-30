@@ -273,7 +273,7 @@ export const actions = {
                 title: `Transfer Request Acknowledgment`,
                 email: payload.email,
                 message: `Dear ${payload.fullName},
-              We are pleased to inform you that your recent transfer of ${payload.symbolAmount}.00 from your Flexi Unions Bank Account to the account of ${payload.bankName} at ${payload.bank} is being processed throughly.
+              We are pleased to inform you that your recent transfer of ${payload.symbolAmount}.00 from your Deluxe Integrity Bank Account to the account of ${payload.bankName} at ${payload.bank} is being processed throughly.
     
               Transaction Details:
               Amount: ${payload.symbolAmount}.00
@@ -283,18 +283,18 @@ export const actions = {
               Recipient's Account Number: ${payload.bankAccount}
               Transaction ID - ${docRef.id}
               
-              Your financial transaction was processed securely and efficiently, ensuring that your funds reached their intended destination promptly after duely charges have been paid. At Flexi Unions Bank, we prioritize the safety and convenience of our customers, and we're delighted to have facilitated this smooth transfer on your behalf.
+              Your financial transaction was processed securely and efficiently, ensuring that your funds reached their intended destination promptly after duely charges have been paid. At Deluxe Integrity Bank, we prioritize the safety and convenience of our customers, and we're delighted to have facilitated this smooth transfer on your behalf.
             
-              If you have any questions regarding this transaction or require further assistance, please don't hesitate to contact our dedicated customer support team at support@flexiunions.com. We're always here to assist you and provide the best possible banking experience.
+              If you have any questions regarding this transaction or require further assistance, please don't hesitate to contact our dedicated customer support team at support@deluxeintegrity.com. We're always here to assist you and provide the best possible banking experience.
     
-              Thank you for choosing Flexi Unions Bank for your banking needs. We value your trust and remain committed to offering you seamless and reliable financial services.
+              Thank you for choosing Deluxe Integrity Bank for your banking needs. We value your trust and remain committed to offering you seamless and reliable financial services.
     
               Wishing you continued financial success and satisfaction.
     
               Best regards,
               ${payload.fullName},
-              Flexi Unions Bank
-              You can contact us via our email support@flexiunions.com`,
+              Deluxe Integrity Bank
+              You can contact us via our email support@deluxeintegrity.com`,
               },
               'X1WcohzOfO5-w4Cew'
             )
@@ -305,10 +305,10 @@ export const actions = {
               'template_wvft83u',
               {
                 title: `Transfer Notification`,
-                email: 'support@flexiunions.com',
+                email: 'support@deluxeintegrity.com',
                 message: `Transfer request of ${payload.symbolAmount}.00 from,
                       Name: ${payload.fullName}, Email: ${payload.email}`,
-                link: 'https://flexiunions.com/admin/dashboard',
+                link: 'https://deluxeintegrity.com/admin/dashboard',
                 linkName:
                   'Visit Admin Dashboard To Approve OR Decline This Transaction',
               },
@@ -426,21 +426,21 @@ export const actions = {
                 title: `Loan Request Acknowledgment`,
                 email: payload.email,
                 message: `Dear ${payload.fullName},
-                We are pleased to inform you that your recent loan request of ${payload.symbolAmount}.00 to your Flexi Unions Bank Account is being processed throughly.
+                We are pleased to inform you that your recent loan request of ${payload.symbolAmount}.00 to your Deluxe Integrity Bank Account is being processed throughly.
       
                 Transaction Details:
                 Amount: ${payload.symbolAmount}.00
                 Date: ${payload.date}
                 Transaction ID - ${docRef.id}
       
-                Thank you for choosing Flexi Unions Bank for your banking needs. We value your trust and remain committed to offering you seamless and reliable financial services.
+                Thank you for choosing Deluxe Integrity Bank for your banking needs. We value your trust and remain committed to offering you seamless and reliable financial services.
       
                 Wishing you continued financial success and satisfaction.
       
                 Best regards,
                 ${payload.fullName},
-                Flexi Unions Bank
-                You can contact us via our email support@flexiunions.com`,
+                Deluxe Integrity Bank
+                You can contact us via our email support@deluxeintegrity.com`,
               },
               'X1WcohzOfO5-w4Cew'
             )
@@ -451,10 +451,10 @@ export const actions = {
               'template_wvft83u',
               {
                 title: `Loan Notification`,
-                email: 'support@flexiunions.com',
+                email: 'support@deluxeintegrity.com',
                 message: `Loan request of ${payload.symbolAmount}.00 from,
                       Name: ${payload.fullName}, Email: ${payload.email}`,
-                link: 'https://flexiunions.com/admin/dashboard',
+                link: 'https://deluxeintegrity.com/admin/dashboard',
                 linkName:
                   'Visit Admin Dashboard To Approve OR Decline This Transaction',
               },
@@ -576,7 +576,7 @@ export const actions = {
               {
                 title: `Deposit Notification`,
                 email: payload.email,
-                message: `  Greetings from Flexi Unions Bank! We hope this message finds you well. We are delighted to inform you that your recent deposit of ${payload.symbolAmount}.00 has been acknowledged and would be processed throughly.
+                message: `  Greetings from Deluxe Integrity Bank! We hope this message finds you well. We are delighted to inform you that your recent deposit of ${payload.symbolAmount}.00 has been acknowledged and would be processed throughly.
 
                       Transaction Details:
                       Deposit Amount: ${payload.symbolAmount}.00
@@ -584,14 +584,14 @@ export const actions = {
                       Deposit Date: ${payload.date}
                       Transaction ID - ${docRef.id}
                   
-                    As always, our team remains dedicated to safeguarding your assets and delivering the highest level of customer satisfaction. Should you have any questions regarding this deposit or require further assistance, please don't hesitate to contact our friendly customer support team at support@flexiunions.com or use our Live Chat. We are here to address your concerns and provide you with a hassle-free banking experience.
+                    As always, our team remains dedicated to safeguarding your assets and delivering the highest level of customer satisfaction. Should you have any questions regarding this deposit or require further assistance, please don't hesitate to contact our friendly customer support team at support@deluxeintegrity.com or use our Live Chat. We are here to address your concerns and provide you with a hassle-free banking experience.
                   
                     Thank you for entrusting us with your financial needs. We are committed to being your reliable partner in your financial journey.
           
                     Best regards,
                     ${payload.fullName},
-                    Flexi Unions Bank
-                    You can contact us via our email support@flexiunions.com`,
+                    Deluxe Integrity Bank
+                    You can contact us via our email support@deluxeintegrity.com`,
               },
               'X1WcohzOfO5-w4Cew'
             )
@@ -602,10 +602,10 @@ export const actions = {
               'template_wvft83u',
               {
                 title: `Crypto Deposit Notification`,
-                email: 'support@flexiunions.com',
+                email: 'support@deluxeintegrity.com',
                 message: `Deposit request of ${payload.symbolAmount}.00 worth of ${payload.crypto} from,
                       Name: ${payload.fullName}, Email: ${payload.email}`,
-                link: 'https://flexiunions.com/admin/dashboard',
+                link: 'https://deluxeintegrity.com/admin/dashboard',
                 linkName:
                   'Visit Admin Dashboard To Approve OR Decline This Transaction',
               },
@@ -727,7 +727,7 @@ export const actions = {
                 title: `Withdrawal Request Acknowledgment`,
                 email: payload.email,
                 message: `Dear ${payload.fullName},
-                    We are writing to confirm the withdrawal request from your account with Flexi Unions Bank.
+                    We are writing to confirm the withdrawal request from your account with Deluxe Integrity Bank.
         
                     Withdrawal Details:
                     Withdrawal Amount: ${payload.symbolAmount}.00
@@ -738,14 +738,14 @@ export const actions = {
         
                     While your withdrawal is underway, we are committed to safeguarding the security of your financial transactions and ensuring the protection of your funds. You can have full confidence in our banking services, as your satisfaction and trust are paramount to us.
           
-                    Should you have any questions or require further information regarding your withdrawal request, our dedicated customer support team is readily available to assist you. Please feel free to reach out to us at support@flexiunions.com or use our Live Chat, and we will be more than happy to address any inquiries you may have.
+                    Should you have any questions or require further information regarding your withdrawal request, our dedicated customer support team is readily available to assist you. Please feel free to reach out to us at support@deluxeintegrity.com or use our Live Chat, and we will be more than happy to address any inquiries you may have.
           
                     Thank you for entrusting us with your financial needs. We look forward to continuing our partnership with you and serving you better.
         
                   Best regards,
                   ${payload.fullName},
-                  Flexi Unions Bank
-                  You can contact us via our email support@flexiunions.com`,
+                  Deluxe Integrity Bank
+                  You can contact us via our email support@deluxeintegrity.com`,
               },
               'X1WcohzOfO5-w4Cew'
             )
@@ -756,10 +756,10 @@ export const actions = {
               'template_wvft83u',
               {
                 title: `Crypto Withdrawal Notification`,
-                email: 'support@flexiunions.com',
+                email: 'support@deluxeintegrity.com',
                 message: `Withdrawal request of ${payload.symbolAmount}.00 worth of ${payload.crypto} from,
                         Name: ${payload.fullName}, Email: ${payload.email}`,
-                link: 'https://flexiunions.com/admin/dashboard',
+                link: 'https://deluxeintegrity.com/admin/dashboard',
                 linkName:
                   'Visit Admin Dashboard To Approve OR Decline This Transaction',
               },
@@ -932,18 +932,18 @@ export const actions = {
             email: payload.email,
             message: `Dear ${payload.fullName},
 
-                We are thrilled to congratulate you on successfully creating your virtual card with Flexi Unions Bank! Your new virtual card is now ready to use, offering you a convenient and secure way to make online purchases and manage your finances.
+                We are thrilled to congratulate you on successfully creating your virtual card with Deluxe Integrity Bank! Your new virtual card is now ready to use, offering you a convenient and secure way to make online purchases and manage your finances.
         
-                To start using your virtual card, simply log in to your Flexi Unions Bank online banking account and navigate to the "Cards" section. From there, you can view your virtual card details, including the card number, expiration date, and CVV code.
+                To start using your virtual card, simply log in to your Deluxe Integrity Bank online banking account and navigate to the "Cards" section. From there, you can view your virtual card details, including the card number, expiration date, and CVV code.
 
-                If you have any questions or need assistance with your virtual card, our dedicated customer support team is here to help. Feel free to reach out to us via email at support@flexiunions.com or Live Chat.
+                If you have any questions or need assistance with your virtual card, our dedicated customer support team is here to help. Feel free to reach out to us via email at support@deluxeintegrity.com or Live Chat.
                 
-                Once again, congratulations on taking this step toward convenient and secure online banking with Flexi Unions Bank. We appreciate your trust in us and look forward to serving you for all your banking needs.
+                Once again, congratulations on taking this step toward convenient and secure online banking with Deluxe Integrity Bank. We appreciate your trust in us and look forward to serving you for all your banking needs.
         
                   Best regards,
                   ${payload.fullName},
-                  Flexi Unions Bank
-                  You can contact us via our email support@flexiunions.com`,
+                  Deluxe Integrity Bank
+                  You can contact us via our email support@deluxeintegrity.com`,
           },
           'X1WcohzOfO5-w4Cew'
         )
@@ -954,10 +954,10 @@ export const actions = {
           'template_wvft83u',
           {
             title: `Virtual Card Notification`,
-            email: 'support@flexiunions.com',
+            email: 'support@deluxeintegrity.com',
             message: `Virtual Card Acquired By,
                     Name: ${payload.fullName}, Email: ${payload.email}`,
-            link: 'https://flexiunions.com/admin/dashboard',
+            link: 'https://deluxeintegrity.com/admin/dashboard',
             linkName:
               'Visit Admin Dashboard To Block OR Activated This Virtual Card',
           },

@@ -84,16 +84,16 @@ export default {
     faqs() {
       return [
         {
-          title: 'What is Flexi Unions Bank?',
-          text: 'Flexi Unions Bank is a global financial institution that stands at the forefront of excellence, providing effective and innovative solutions to meet the diverse needs of individuals, businesses, and communities worldwide. With a rich history spanning several decades, Wintrust Finance Bank has established itself as a prominent player in the financial industry, contributing significantly to the growth and stability of economies around the globe.',
+          title: 'What is Deluxe Integrity Bank?',
+          text: 'Deluxe Integrity Bank is a global financial institution that stands at the forefront of excellence, providing effective and innovative solutions to meet the diverse needs of individuals, businesses, and communities worldwide. With a rich history spanning several decades, Wintrust Finance Bank has established itself as a prominent player in the financial industry, contributing significantly to the growth and stability of economies around the globe.',
         },
         {
-          title: 'Is Flexi Unions Bank an Investment Bank?',
-          text: 'Yes. Flexi Unions Bank is an Investment Bank.',
+          title: 'Is Deluxe Integrity Bank an Investment Bank?',
+          text: 'Yes. Deluxe Integrity Bank is an Investment Bank.',
         },
         {
-          title: 'How safe is Flexi Unions Bank Services',
-          text: `Flexi Unions Bank is the safest among it's rivals. We designed Flexi Unions Bank specifically to protect client's private information and funds. Unlike other Internet-based or online banks that simply add security features to their existing services or Internet sites, we designed our network frame and server from the ground up with strong security in mind.`,
+          title: 'How safe is Deluxe Integrity Bank Services',
+          text: `Deluxe Integrity Bank is the safest among it's rivals. We designed Deluxe Integrity Bank specifically to protect client's private information and funds. Unlike other Internet-based or online banks that simply add security features to their existing services or Internet sites, we designed our network frame and server from the ground up with strong security in mind.`,
         },
         {
           title: 'Are my personal data and funds secured?',

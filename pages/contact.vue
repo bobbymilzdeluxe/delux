@@ -82,13 +82,13 @@ export default {
         {
           pic: 'https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/646f3ee0eeb4ddfdaefe46bc_community%20icon.svg',
           title: 'Ask the community',
-          text: 'We have a vibrant community of Flexi Unions Bank customers where we communicate regular updates about our products and services.',
+          text: 'We have a vibrant community of Deluxe Integrity Bank customers where we communicate regular updates about our products and services.',
         },
       ]
     },
   },
   head: {
-    titleTemplate: 'Contact - Flexi Unions Bank ',
+    titleTemplate: 'Contact - Deluxe Integrity Bank ',
   },
 }
 </script>

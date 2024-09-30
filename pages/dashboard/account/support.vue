@@ -5,7 +5,7 @@
         cols="12"
         class="text-center text-subtitle-1 text-h5 accent--text font-weight-regular mb-0 pb-0"
       >
-        How Can <span class="secondary--text">Flexi Unions Bank</span>
+        How Can <span class="secondary--text">Deluxe Integrity Bank</span>
         Support Help You Today
       </v-col>
       <VCol cols="12">

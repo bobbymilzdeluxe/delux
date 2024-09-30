@@ -46,7 +46,7 @@
         <p
           class="font-weight-bold black--text text-subtitle-2 text-md-subtitle-1 ml-3"
         >
-          Verify your Flexi Unions Bank account
+          Verify your Deluxe Integrity Bank account
         </p>
         <VCard
           class="d-flex align-center pa-3"

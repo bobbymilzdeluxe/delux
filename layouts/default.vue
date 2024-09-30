@@ -65,7 +65,7 @@ window.smartsupp||(function(d) {
               <div
                 class="accent--text ma-0 pa-0 text--lighten-4 d-none d-md-block font-weight-medium text-h6"
               >
-                Flexi Unions Bank
+                Deluxe Integrity Bank
               </div>
               <!-- <div
                 class="accent--text ma-0 pa-0 text--lighten-4 d-block d-md-none font-weight-regular"
@@ -309,8 +309,8 @@ window.smartsupp||(function(d) {
             </VCol>
             <VCol cols="12">
               <p class="secondary--text darken-2 text-caption">
-                Flexi Unions Bank is a global financial institution that stands
-                at the forefront of excellence, providing effective and
+                Deluxe Integrity Bank is a global financial institution that
+                stands at the forefront of excellence, providing effective and
                 innovative solutions to meet the diverse needs of individuals,
                 businesses, and communities worldwide. With a rich history
                 spanning several decades, Wintrust Finance Bank has established
@@ -358,7 +358,7 @@ export default {
             //   src: 'https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/645dfc91d6307df11f9f0730_Loans-icon.svg',
             // },
             // {
-            //   title: 'Flexi Unions Bank Zero',
+            //   title: 'Deluxe Integrity Bank Zero',
             //   text: 'Buy now, pay later.',
             //   src: 'https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/64678cab442bef0ee623992e_cz%20icon.svg',
             // },
@@ -383,7 +383,7 @@ export default {
             {
               title: 'Personal Savings',
               to: '/personal-savings',
-              text: 'Earn returns on savings on Flexi Unions Bank',
+              text: 'Earn returns on savings on Deluxe Integrity Bank',
               src: 'https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/645dfc91d6307df11f9f0739_investment.svg',
             },
           ],

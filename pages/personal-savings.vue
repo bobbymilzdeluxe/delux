@@ -15,10 +15,10 @@
               Unions Bank
             </template>
             <template #text>
-              Save smart and earn more with a Flexi Unions Bank savings plan. We
-              offer up to 15.5% interest on your savings.
+              Save smart and earn more with a Deluxe Integrity Bank savings
+              plan. We offer up to 15.5% interest on your savings.
             </template>
-            <template #btn> Start saving with Flexi Unions Bank </template>
+            <template #btn> Start saving with Deluxe Integrity Bank </template>
           </loans-sec-1>
         </vContainer>
       </vContainer>
@@ -171,13 +171,13 @@ export default {
         {
           pic: 'https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/6466170d9ac983ebfaa0921a_Secure%20icon.webp',
           title: 'You’re safe, always',
-          text: 'Opening a bank account and saving with Flexi Unions Bank is the start of a relationship with one of the most secure digital banks insured by World Bank',
+          text: 'Opening a bank account and saving with Deluxe Integrity Bank is the start of a relationship with one of the most secure digital banks insured by World Bank',
         },
       ]
     },
   },
   head: {
-    titleTemplate: 'Personal-Savings - Flexi Unions Bank',
+    titleTemplate: 'Personal-Savings - Deluxe Integrity Bank',
   },
 }
 </script>

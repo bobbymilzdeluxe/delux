@@ -17,7 +17,7 @@
             </template>
             <template #text>
               We take pride in helping families with affordable solutions to
-              their money needs. Contact your nearest Flexi Unions Bank
+              their money needs. Contact your nearest Deluxe Integrity Bank
             </template>
             <template #btn> Get an instant loan </template>
           </loans-sec-1>
@@ -56,7 +56,7 @@
             </template>
             <template #text>
               <span class="grey--text">
-                Flexi Unions Bank makes installment loans at all of our
+                Deluxe Integrity Bank makes installment loans at all of our
                 full-service bank locations, with friendly, helpful loan
                 officers. If you are ready to purchase an automobile or truck,
                 whether new or used, we are ready to finance the vehicle for
@@ -164,7 +164,7 @@ export default {
     },
   },
   head: {
-    titleTemplate: 'Loans - Flexi Unions Bank',
+    titleTemplate: 'Loans - Deluxe Integrity Bank',
   },
 }
 </script>

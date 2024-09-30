@@ -53,7 +53,7 @@
         <p
           class="mb-0 pb-0 font-weight-medium text-subtitle-2 text-md-subtitle-1 text-center"
         >
-          Getting Loans on Flexi Unions Bank
+          Getting Loans on Deluxe Integrity Bank
         </p>
         <p
           class="font-weight-light mb-13 text-center text-body-2 text-md-body-1"
@@ -152,20 +152,20 @@ export default {
         {
           color: 'secondary',
           icon: 'mdi-history',
-          title: 'Your History with Flexi Unions Bank',
+          title: 'Your History with Deluxe Integrity Bank',
           text: `You'll typically get a higher loan if you perform the bulk of your
-              transaction on Flexi Unions Bank.`,
+              transaction on Deluxe Integrity Bank.`,
         },
         {
           color: 'primary',
           icon: 'mdi-chart-donut',
           title: 'Your History with other borrowers',
-          text: `The better your credit history with other borrowers, the better your loan on Flexi Unions Bank.`,
+          text: `The better your credit history with other borrowers, the better your loan on Deluxe Integrity Bank.`,
         },
         {
           color: 'orange',
           icon: 'mdi-currency-usd',
-          title: 'Getting Loans on Flexi Unions Bank',
+          title: 'Getting Loans on Deluxe Integrity Bank',
           text: `The more information we have about you, the better. Ensure your details are up to date.`,
         },
       ]

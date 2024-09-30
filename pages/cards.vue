@@ -14,20 +14,20 @@
             <template slot="title">
               Debit cards are the past,
               <span class="lineartext"
-                >Flexi Unions Bank cards are the future</span
+                >Deluxe Integrity Bank cards are the future</span
               >
             </template>
             <template #text>
               Anyone who opens a personal checking account may apply for a free
-              Flexi Unions Bank CheckCard.
+              Deluxe Integrity Bank CheckCard.
               <br />
 
               It's the card that works like a check, anywhere VISA is accepted.
               <br />
               It also serves as an ATM card at any PULSE/CIRRUS/DASH affiliated
               Automatic Teller Machine or PULSEPAY terminal. Choose your own
-              Personal Identification Number (PIN) at your nearest Flexi Unions
-              Bank Online Bank location.
+              Personal Identification Number (PIN) at your nearest Deluxe
+              Integrity Bank Online Bank location.
             </template>
             <template #btn> Request a card today </template>
           </loans-sec-1>
@@ -103,9 +103,9 @@
                     Shop now, pay later at 0% interest
                   </p>
                   <p class="text-h6 text-md-h5 text1--text font-weight-regular">
-                    Enjoy the perks of spreading payments, use your Flexi Unions
-                    Bank debit card to pay for items and spread in equal
-                    installments at your favourite stores. No hidden fees.
+                    Enjoy the perks of spreading payments, use your Deluxe
+                    Integrity Bank debit card to pay for items and spread in
+                    equal installments at your favourite stores. No hidden fees.
                   </p>
                   <p>
                     <VBtn
@@ -203,7 +203,7 @@ export default {
     },
   },
   head: {
-    titleTemplate: 'Cards - Flexi Unions Bank',
+    titleTemplate: 'Cards - Deluxe Integrity Bank',
   },
 }
 </script>

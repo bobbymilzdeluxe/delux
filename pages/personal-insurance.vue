@@ -103,7 +103,7 @@ export default {
     window.scrollTo(0, 0)
   },
   head: {
-    titleTemplate: 'Personal Insurance - Flexi Unions Bank',
+    titleTemplate: 'Personal Insurance - Deluxe Integrity Bank',
   },
   computed: {
     textGen() {

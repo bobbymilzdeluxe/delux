@@ -366,7 +366,7 @@ export default {
             this.user && this.user.lastName
           }`,
           senderAccountNumber: `${this.user && this.user.accNumber}`,
-          senderBank: 'Flexi Unions Bank',
+          senderBank: 'Deluxe Integrity Bank',
 
           amount: convertedAmount,
           bankName: this.Bname,

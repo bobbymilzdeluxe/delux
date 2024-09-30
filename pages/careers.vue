@@ -54,7 +54,7 @@
               <p
                 class="accent--text text-center text-h5 text-md-h3 font-weight-bold"
               >
-                Why Flexi Unions Bank?
+                Why Deluxe Integrity Bank?
               </p>
               <p
                 class="grey--text text-center text-subtitle-2 text-md-subtitle-1 text--darken-2"
@@ -250,7 +250,7 @@
             <p
               class="accent--text text-center text-h5 text-md-h3 font-weight-bold"
             >
-              What our team say about Flexi Unions Bank
+              What our team say about Deluxe Integrity Bank
             </p>
           </VCol>
           <VCol cols="12">
@@ -286,11 +286,12 @@
                   <p
                     class="secondary--text text--darken-2 font-weight-medium text-subtitle-2 text-md-subtitle-1"
                   >
-                    “Flexi Unions Bank has provided me with ample opportunities
-                    to learn and develop my skills. The leadership team is
-                    passionate about employee growth and offers continuous
-                    training. I love being surrounded by talented humans at
-                    Flexi Unions Bank who inspire me to reach new heights.”
+                    “Deluxe Integrity Bank has provided me with ample
+                    opportunities to learn and develop my skills. The leadership
+                    team is passionate about employee growth and offers
+                    continuous training. I love being surrounded by talented
+                    humans at Deluxe Integrity Bank who inspire me to reach new
+                    heights.”
                   </p>
                   <p
                     class="white--text font-weight-medium text-subtitle-2 text-md-subtitle-1"
@@ -453,7 +454,7 @@ export default {
         {
           pic: 'https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/6465ec149ac983ebfa736676_stopwatch.svg',
           title: 'Rapid response',
-          text: 'At Flexi Unions Bank, we understand timely information is valuable, which is why we are committed to giving quick and appropriate responses to enquiries. We also take responsibility for each of our actions.',
+          text: 'At Deluxe Integrity Bank, we understand timely information is valuable, which is why we are committed to giving quick and appropriate responses to enquiries. We also take responsibility for each of our actions.',
           color: '#ffe9f2',
         },
         {
@@ -526,7 +527,7 @@ export default {
     },
   },
   head: {
-    titleTemplate: 'Careers - Flexi Unions Bank',
+    titleTemplate: 'Careers - Deluxe Integrity Bank',
   },
 }
 </script>

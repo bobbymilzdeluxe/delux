@@ -102,7 +102,7 @@
           <p
             class="text-center grey--text text--darken-3 mt-4 font-weight-medium"
           >
-            Your Flexi Unions Bank Virtual card is here!
+            Your Deluxe Integrity Bank Virtual card is here!
           </p>
           <div
             class="d-flex align-start mb-3"
@@ -161,7 +161,7 @@ export default {
           color: 'secondary',
           icon: 'mdi-earth',
           title: 'Available',
-          text: `Withdraw cash from your Flexi Unions Bank Account using your Virtual Card, anywhere`,
+          text: `Withdraw cash from your Deluxe Integrity Bank Account using your Virtual Card, anywhere`,
         },
         {
           color: 'primary',

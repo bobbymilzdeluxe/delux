@@ -8,7 +8,7 @@
               <p
                 class="text-center white--text font-weight-bold text-h4 text-md-h2"
               >
-                Flexi Unions Bank Privacy Policy
+                Deluxe Integrity Bank Privacy Policy
               </p>
             </div>
           </VCol>
@@ -223,8 +223,8 @@
               personal information to third parties: a) In the event that we
               sell or buy any business or assets, in which case we may disclose
               your personal data to the prospective seller or buyer of such
-              business or assets. b) If Flexi Unions Bank or substantially all
-              of its assets are acquired by a third party, in which case
+              business or assets. b) If Deluxe Integrity Bank or substantially
+              all of its assets are acquired by a third party, in which case
               personal data held by it about its customers will be one of the
               transferred assets
             </p>
@@ -232,9 +232,9 @@
               iv. if we are under a duty to disclose or share your personal data
               in order to comply with any legal obligation, or in order to
               enforce or apply our terms of use and other agreements or to
-              protect the rights, property, or safety of Flexi Unions Bank, our
-              customers, or others. This includes exchanging information with
-              other companies and organizations for the purposes of fraud
+              protect the rights, property, or safety of Deluxe Integrity Bank,
+              our customers, or others. This includes exchanging information
+              with other companies and organizations for the purposes of fraud
               protection and credit risk reduction.
             </p>
             <p class="font-weight-bold black--text text-h4 mt-5 mt-md-10">
@@ -306,7 +306,7 @@ export default {
     window.scrollTo(0, 0)
   },
   head: {
-    titleTemplate: 'Privacy Policy - Flexi Unions Bank',
+    titleTemplate: 'Privacy Policy - Deluxe Integrity Bank',
   },
 }
 </script>

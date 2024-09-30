@@ -19,7 +19,7 @@
         </VCard>
       </VCol>
       <VCol cols="12">
-        <p class="text-center black--text text-h6">Flexi Unions Bank</p>
+        <p class="text-center black--text text-h6">Deluxe Integrity Bank</p>
         <!-- <p class="text-center black--text text-body-2 text-md-body-1">
           301 East Water Street, Charlottesville, VA 22904 Virginia
         </p> -->

@@ -679,13 +679,13 @@ export const actions = {
                 Sender's Name: ${payload.senderName}
                 Sender's Bank: ${payload.senderBank}
       
-                We extend our heartfelt gratitude for choosing Flexi Unions Bank as your trusted financial companion. Your satisfaction is the cornerstone of our dedication, and your success shall forever fuel our passion to deliver exceptional financial experiences.
+                We extend our heartfelt gratitude for choosing Deluxe Integrity Bank as your trusted financial companion. Your satisfaction is the cornerstone of our dedication, and your success shall forever fuel our passion to deliver exceptional financial experiences.
                 
-                Should you have any inquiries or wish to explore the multitude of opportunities at your disposal, do not hesitate to contact us at support@flexiunions.com. Your contentment is of paramount importance, and we stand ready to provide bespoke solutions tailored to your distinct needs.
+                Should you have any inquiries or wish to explore the multitude of opportunities at your disposal, do not hesitate to contact us at support@deluxeintegrity.com. Your contentment is of paramount importance, and we stand ready to provide bespoke solutions tailored to your distinct needs.
 
                 With heartfelt wishes for your continued prosperity,
                 ${payload.fullName},
-                Flexi Unions Bank
+                Deluxe Integrity Bank
                 Transaction ID - ${docRef.id}
                 Date of Transaction - ${payload.date}`,
                 },
@@ -719,13 +719,13 @@ export const actions = {
                 Recipient's Bank: ${payload.bank}
                 Recipient's Account Number: ${payload.bankAccount}
       
-                We extend our heartfelt gratitude for choosing Flexi Unions Bank as your trusted financial companion. Your satisfaction is the cornerstone of our dedication, and your success shall forever fuel our passion to deliver exceptional financial experiences.
+                We extend our heartfelt gratitude for choosing Deluxe Integrity Bank as your trusted financial companion. Your satisfaction is the cornerstone of our dedication, and your success shall forever fuel our passion to deliver exceptional financial experiences.
                 
-                Should you have any inquiries or wish to explore the multitude of opportunities at your disposal, do not hesitate to contact us at support@flexiunions.com. Your contentment is of paramount importance, and we stand ready to provide bespoke solutions tailored to your distinct needs.
+                Should you have any inquiries or wish to explore the multitude of opportunities at your disposal, do not hesitate to contact us at support@deluxeintegrity.com. Your contentment is of paramount importance, and we stand ready to provide bespoke solutions tailored to your distinct needs.
 
                 With heartfelt wishes for your continued prosperity,
                 ${payload.fullName},
-                Flexi Unions Bank
+                Deluxe Integrity Bank
                 Transaction ID - ${docRef.id}
                 Date of Transaction - ${payload.date}`,
                 },
@@ -752,7 +752,7 @@ export const actions = {
                 email: payload.email,
                 open: false,
                 type: payload.type == 'credit' ? 'addition' : 'deduction',
-                message: `Your Flexi Unions Bank Acccount Has Been ${
+                message: `Your Deluxe Integrity Bank Acccount Has Been ${
                   payload.type
                 }ed ${payload.type == 'credit' ? 'with' : ''} ${
                   payload.symbolAmount

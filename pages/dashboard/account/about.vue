@@ -3,7 +3,7 @@
     <p
       class="text-center text-subtitle-1 text-h5 accent--text font-weight-regular mb-0 pb-0"
     >
-      About <span class="secondary--text">Flexi Unions Bank</span>
+      About <span class="secondary--text">Deluxe Integrity Bank</span>
     </p>
     <v-row class="mx-0 px-0" justify="center">
       <VCol cols="12" class="mb-0 pb-0">

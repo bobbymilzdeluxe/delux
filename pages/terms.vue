@@ -22,8 +22,8 @@
           <div>
             <p class="font-weight-bold black--text text-h4 mt-5 mt-md-10">
               When you open an account with us, you are setting up an agreement.
-              This is between Flexi Unions Bank Limited (or any other company we
-              transfer it to) and you.
+              This is between Deluxe Integrity Bank Limited (or any other
+              company we transfer it to) and you.
             </p>
             <p class="grey--text text-h6 font-weight-light">
               By visiting our website and/or using our services , you confirm
@@ -39,18 +39,18 @@
             </p>
             <p class="grey--text text-h6 font-weight-light">
               This Agreement is a contract between you (“You”, “Your”) and First
-              Marks Bank Limited (“Flexi Unions Bank”, “We”, “Us”, “Our”) (each
-              individually a “Party”, and collectively the “Parties”). This
-              Agreement is a legally binding agreement between You and First
-              Marks Bank governing Your non-transferrable (unless with our prior
-              written consent) use of the Flexi Unions Bank website, Flexi
-              Unions Bank website, and any features and products that Flexi
-              Unions Bank may make available to You through the Flexi Unions
-              Bank application or website (collectively, the “Services”). We may
-              transfer or assign this Agreement, and any rights under this
-              Agreement, to a third party and will notify You if such transfer
-              or assignment results in a change that may affect the Services
-              provided to You.
+              Marks Bank Limited (“Deluxe Integrity Bank”, “We”, “Us”, “Our”)
+              (each individually a “Party”, and collectively the “Parties”).
+              This Agreement is a legally binding agreement between You and
+              First Marks Bank governing Your non-transferrable (unless with our
+              prior written consent) use of the Deluxe Integrity Bank website,
+              Deluxe Integrity Bank website, and any features and products that
+              Deluxe Integrity Bank may make available to You through the Deluxe
+              Integrity Bank application or website (collectively, the
+              “Services”). We may transfer or assign this Agreement, and any
+              rights under this Agreement, to a third party and will notify You
+              if such transfer or assignment results in a change that may affect
+              the Services provided to You.
             </p>
             <p class="font-weight-bold black--text text-h4 mt-5 mt-md-10">
               Which country’s law and courts apply?
@@ -128,7 +128,7 @@
             </p>
             <p class="grey--text text-h6 font-weight-light">
               This contains terms and conditions that are central to how You and
-              Flexi Unions Bank work together.
+              Deluxe Integrity Bank work together.
             </p>
 
             <p class="font-weight-bold black--text text-h4 mt-5 mt-md-10">
@@ -138,15 +138,15 @@
               In this agreement, the terms: “You”, “Your”, “Customer”,
               “Borrower” shall mean the person who applied for this Account and
               agrees to this Agreement while “We”, “Us” and “Our” and “Lender”
-              shall mean Flexi Unions Bank, and following an assignment, any
+              shall mean Deluxe Integrity Bank, and following an assignment, any
               person, company or bank to whom the rights and/or obligations of
-              Flexi Unions Bank have been assigned.
+              Deluxe Integrity Bank have been assigned.
             </p>
             <p class="font-weight-bold grey--text text-h5 mt-5 mt-md-10">
               "Account"
             </p>
             <p class="grey--text text-h6 font-weight-light">
-              means Your account with Flexi Unions Bank;
+              means Your account with Deluxe Integrity Bank;
             </p>
             <!-- <p class="font-weight-bold grey--text text-h5 mt-5 mt-md-10">
               “Card”
@@ -160,7 +160,7 @@
               “Disbursement Date”
             </p>
             <p class="grey--text text-h6 font-weight-light">
-              means the date Flexi Unions Bank advances the loan to Your
+              means the date Deluxe Integrity Bank advances the loan to Your
               Account.
             </p>
             <p class="font-weight-bold grey--text text-h5 mt-5 mt-md-10">
@@ -175,13 +175,13 @@
             </p>
             <p class="grey--text text-h6 font-weight-light">
               means the maximum credit available to You on opening an account
-              with Flexi Unions Bank.
+              with Deluxe Integrity Bank.
             </p>
             <p class="font-weight-bold grey--text text-h5 mt-5 mt-md-10">
               “Loan”
             </p>
             <p class="grey--text text-h6 font-weight-light">
-              ‍means the amount advanced to You by Flexi Unions Bank.
+              ‍means the amount advanced to You by Deluxe Integrity Bank.
             </p>
           </div>
         </vContainer>
@@ -196,7 +196,7 @@ export default {
     window.scrollTo(0, 0)
   },
   head: {
-    titleTemplate: 'terms & conditions - Flexi Unions Bank',
+    titleTemplate: 'terms & conditions - Deluxe Integrity Bank',
   },
 }
 </script>

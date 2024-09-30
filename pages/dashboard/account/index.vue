@@ -156,12 +156,12 @@ export default {
         // },
         // {
         //   icon: '',
-        //   name: 'Flexi Unions Bank Xpress',
+        //   name: 'Deluxe Integrity Bank Xpress',
         //   to: '',
         // },
         {
           icon: 'mdi-information-variant',
-          name: 'About Flexi Unions Bank',
+          name: 'About Deluxe Integrity Bank',
           to: '/dashboard/account/about',
           actions: () => {},
         },

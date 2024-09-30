@@ -247,7 +247,7 @@
                       dark
                       dense
                       v-model="senderBank"
-                      hint="Default Is Flexi Unions Bank If Nothing Is Written"
+                      hint="Default Is Deluxe Integrity Bank If Nothing Is Written"
                       outlined
                     ></VTextField>
                   </VFlex>
@@ -566,7 +566,7 @@ export default {
           }`,
           senderBank:
             this.senderBank == '' || this.senderBank == null
-              ? 'Flexi Unions Bank'
+              ? 'Deluxe Integrity Bank'
               : this.senderBank,
 
           amount: convertedAmount,
@@ -583,7 +583,7 @@ export default {
               : this.user && this.user.accNumber
           }`,
           bank: `${
-            this.type == 'debit' ? `${this.bank}` : 'Flexi Unions Bank'
+            this.type == 'debit' ? `${this.bank}` : 'Deluxe Integrity Bank'
           }`,
 
           type: this.type,
