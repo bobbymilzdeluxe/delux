@@ -129,7 +129,7 @@ window.smartsupp||(function(d) {
       >
         <v-list-item class="px-1 my-2">
           <div class="text-center mx-auto">
-            <v-img src="/logo/whole.svg" width="50" contain></v-img>
+            <v-img src="/logo/line.svg" width="50" contain></v-img>
           </div>
           <!-- <div class="text-center mx-auto" v-if="mini == false">
             <v-img
@@ -312,30 +312,13 @@ export default {
           to: '/dashboard/transactions',
           action: () => {},
         },
-        // {
-        //   title: 'Loans',
-        //   icon: 'mdi-handshake',
-        //   to: '/dashboard/loan',
-        //   action: () => {},
-        // },
-        // {
-        //   title: 'Buy Bitcoin',
-        //   icon: 'mdi-bitcoin',
-        //   to: '/dashboard/buy',
-        //   action: () => {},
-        // },
-        // {
-        //   title: 'Investment Plans',
-        //   icon: 'mdi-account-credit-card',
-        //   to: '/dashboard/investment',
-        //   action: () => {},
-        // },
-        // {
-        //   title: 'Verify Account',
-        //   icon: 'mdi-shield-check',
-        //   to: '/dashboard/account/verification',
-        //   action: () => {},
-        // },
+        {
+          title: 'Loans',
+          icon: 'mdi-handshake',
+          to: '/dashboard/loan',
+          action: () => {},
+        },
+
         {
           title: 'Logout',
           icon: 'mdi-power-standby',

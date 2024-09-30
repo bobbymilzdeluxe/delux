@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row class="mx-0 px-0" align="start" justify="center">
-      <VCol cols="12" md="5">
+      <VCol cols="12" md="8">
         <p class="ml-3 mb-0 pb-0 font-weight-bold">
           Swipe
           <v-icon>mdi-chevron-right</v-icon>
@@ -19,19 +19,18 @@
         </swiper-container>
       </VCol>
 
-      <VCol cols="12" md="4" class="mt-0 pt-0">
+      <VCol cols="12" md="8" class="mt-0 pt-0">
         <p class="font-weight-bold ml-3 mt-0 pt-0 mt-md-2 pt-md-2">
           Quick Access
         </p>
-        <v-row class="mx-0 px-0">
-          <VCol cols="3" md="4" v-for="quick in quickAccess" :key="quick.color">
+        <v-row class="mx-0 px-0" justify="center">
+          <VCol cols="3" md="3" v-for="quick in quickAccess" :key="quick.color">
             <v-card
               dark
               :to="quick.to"
               flat
               class="grey lighten-5 py-3 d-flex flex-column justify-center align-center"
               style="border-radius: 12px; overflow: hidden"
-              max-width="80"
             >
               <VIcon :color="quick.color">{{ quick.icon }}</VIcon>
               <p class="text-caption grey--text text--darken-3 ma-0 py-0">
@@ -42,7 +41,7 @@
         </v-row>
       </VCol>
 
-      <!-- <VCol cols="12" md="3" class="">
+      <VCol cols="12" md="8" class="">
         <p
           class="font-weight-bold black--text text-subtitle-2 text-md-subtitle-1 ml-3"
         >
@@ -71,10 +70,10 @@
             </p>
           </div>
         </VCard>
-      </VCol> -->
+      </VCol>
     </v-row>
 
-    <v-row class="mx-0 px-0" justify="center">
+    <v-row class="mx-0 px-0 mt-8" justify="center">
       <VCol cols="12" md="8" class="my-0 py-0 mx-2">
         <div class="d-flex justify-space-between align-center">
           <p

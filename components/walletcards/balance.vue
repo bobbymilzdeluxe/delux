@@ -5,7 +5,7 @@
         <p
           class="white--text font-weight-light text-body-2 text-md-body-1 texting"
         >
-          Main Account Balance
+          {{ user && user.fullName }} Balance
         </p>
         <p>
           <VBtn

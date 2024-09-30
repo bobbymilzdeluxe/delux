@@ -233,7 +233,7 @@
                   </v-btn>
                 </v-stepper-content>
 
-                <v-stepper-step :complete="e6 > 3" step="3">
+                <!-- <v-stepper-step :complete="e6 > 3" step="3">
                   <p class="white--text ma-0 pa-0">
                     Identification Information:
                   </p>
@@ -281,12 +281,12 @@
                   <v-btn text @click="e6 = 2" class="white--text">
                     Cancel
                   </v-btn>
-                </v-stepper-content>
+                </v-stepper-content> -->
 
-                <v-stepper-step :complete="e6 > 4" step="4">
+                <v-stepper-step :complete="e6 > 3" step="3">
                   <p class="white--text ma-0 pa-0">Employment Information:</p>
                 </v-stepper-step>
-                <v-stepper-content step="4">
+                <v-stepper-content step="3">
                   <div class="mb-12">
                     <div>
                       <v-row class="mx-0 px-0 mt-1">
@@ -314,19 +314,19 @@
                     :disabled="Four"
                     depressed
                     color="primary"
-                    @click="e6 = 5"
+                    @click="e6 = 4"
                   >
                     Continue
                   </v-btn>
-                  <v-btn text class="white--text" @click="e6 = 3">
+                  <v-btn text class="white--text" @click="e6 = 2">
                     Cancel
                   </v-btn>
                 </v-stepper-content>
 
-                <v-stepper-step step="5">
+                <v-stepper-step step="4">
                   <p class="white--text ma-0 pa-0">Final Details:</p>
                 </v-stepper-step>
-                <v-stepper-content step="5">
+                <v-stepper-content step="4">
                   <div class="mb-12">
                     <div>
                       <v-row class="mx-0 px-0 mt-1">
@@ -384,7 +384,7 @@
                   >
                     Continue
                   </v-btn>
-                  <v-btn text class="white--text" @click="e6 = 4">
+                  <v-btn text class="white--text" @click="e6 = 3">
                     Cancel
                   </v-btn>
                 </v-stepper-content>
@@ -431,25 +431,21 @@ export default {
     } else {
       this.One = true
     }
-
     if (this.phone && this.address) {
       this.Two = false
     } else {
       this.Two = true
     }
-
-    if (this.iden && this.idenNum) {
-      this.Three = false
-    } else {
-      this.Three = true
-    }
-
+    // if (this.iden && this.idenNum) {
+    //   this.Three = false
+    // } else {
+    //   this.Three = true
+    // }
     if (this.occupation) {
       this.Four = false
     } else {
       this.Four = true
     }
-
     if (this.account && this.ownership && this.terms) {
       this.Five = false
     } else {

@@ -31,12 +31,24 @@
               </p>
               <p class="mb-0 pb-0">
                 <VBtn
-                  :color="user && user.active ? '#018900' : 'red'"
-                  class="white--text text-capitalize text-caption"
+                  :color="
+                    verify &&
+                    verify.documentStatus == 'approved' &&
+                    verify.selfieStatus == 'approved'
+                      ? 'green'
+                      : 'red'
+                  "
                   text
-                  depressed
-                  x-small
-                  >{{ user && user.active ? 'Active' : 'Non - Active' }}</VBtn
+                  class="ma-0 pa-0"
+                  :ripple="false"
+                  small
+                  >{{
+                    verify &&
+                    verify.documentStatus == 'approved' &&
+                    verify.selfieStatus == 'approved'
+                      ? 'Verified'
+                      : 'Unverified'
+                  }}</VBtn
                 >
               </p>
             </div>
@@ -119,12 +131,12 @@ export default {
 
     accountLinks() {
       return [
-        // {
-        //   icon: 'mdi-badge-account',
-        //   name: 'Verify your account',
-        //   to: '/dashboard/account/verification',
-        //   actions: () => {},
-        // },
+        {
+          icon: 'mdi-badge-account',
+          name: 'Verify your account',
+          to: '/dashboard/account/verification',
+          actions: () => {},
+        },
         {
           icon: 'mdi-account-circle',
           name: 'Profile',

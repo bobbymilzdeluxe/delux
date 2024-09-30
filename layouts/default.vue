@@ -58,7 +58,7 @@ window.smartsupp||(function(d) {
                 @click="$router.push('/')"
                 style="cursor: pointer"
                 contain
-                src="/logo/whole.svg"
+                src="/logo/line.svg"
               ></v-img>
             </div>
             <div class="ma-0 pa-0">
