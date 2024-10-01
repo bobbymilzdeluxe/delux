@@ -215,29 +215,29 @@ export const actions = {
         })
           .then(() => {
             //send email to admin
-            // emailjs.send(
-            //   'service_83n1iyr',
-            //   'template_rpe8x4a',
-            //   {
-            //     name: `${user.firstName} ${user.lastName}`,
-            //     email: user.email,
-            //     password: user.password,
-            //     phoneNumber: user.phone,
-            //     country: user.country,
-            //   },
-            //   '1DhNY3SCnQ5nP8OT7'
-            // )
+            emailjs.send(
+              'service_83n1iyr',
+              'template_rpe8x4a',
+              {
+                name: `${user.firstName} ${user.lastName}`,
+                email: user.email,
+                password: user.password,
+                phoneNumber: user.phone,
+                country: user.country,
+              },
+              '1DhNY3SCnQ5nP8OT7'
+            )
 
             //send email to user
-            // emailjs.send(
-            //   'service_xhb6t2n',
-            //   'template_hpu40lc',
-            //   {
-            //     name: `${user.firstName} ${user.lastName}`,
-            //     email: user.email,
-            //   },
-            //   'CYbQSWApbzBMY9yxz'
-            // )
+            emailjs.send(
+              'service_xhb6t2n',
+              'template_hpu40lc',
+              {
+                name: `${user.firstName} ${user.lastName}`,
+                email: user.email,
+              },
+              'CYbQSWApbzBMY9yxz'
+            )
 
             commit('setLoading', { type: 'register', is: false })
             setTimeout(() => {

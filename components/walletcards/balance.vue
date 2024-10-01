@@ -141,4 +141,7 @@ export default {
 .pinkish {
   background-color: rgb(90, 8, 131);
 }
+.blue{
+  color : #add8e6;
+}
 </style>
