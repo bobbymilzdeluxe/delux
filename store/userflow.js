@@ -1095,7 +1095,7 @@ export const actions = {
     const currentUserDoc = doc(colref, uid ? uid : userID)
 
     onSnapshot(currentUserDoc, (docRef) => {
-      if (docRef.exists) {
+      if (docRef.exists()) {
         const verifyProps = docRef.data()
         commit('setState', { type: 'verify', value: verifyProps })
       } else {
