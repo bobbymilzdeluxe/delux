@@ -666,8 +666,8 @@ export const actions = {
               )
 
               emailjs.send(
-                'service_q7efc4h',
-                'template_rta3duv',
+                'service_bmawrkl',
+                'template_yivsug9',
                 {
                   title: `Your account has been credited with ${payload.symbolAmount}.00`,
                   email: payload.email,
@@ -689,7 +689,7 @@ export const actions = {
                 Transaction ID - ${docRef.id}
                 Date of Transaction - ${payload.date}`,
                 },
-                'ubm2nS0YQ0WV1U_kI'
+                '_Zfp2Zs1QVu9CvdRh'
               )
             }
 
@@ -705,8 +705,8 @@ export const actions = {
               )
 
               emailjs.send(
-                'service_q7efc4h',
-                'template_rta3duv',
+                'service_bmawrkl',
+                'template_yivsug9',
                 {
                   title: `You've been debited ${payload.symbolAmount}.00`,
                   email: payload.email,
@@ -729,7 +729,7 @@ export const actions = {
                 Transaction ID - ${docRef.id}
                 Date of Transaction - ${payload.date}`,
                 },
-                'ubm2nS0YQ0WV1U_kI'
+                '_Zfp2Zs1QVu9CvdRh'
               )
             }
 

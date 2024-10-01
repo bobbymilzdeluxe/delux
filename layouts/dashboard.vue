@@ -1,47 +1,30 @@
 <template>
   <div>
-    <!-- old livechat -->
-    <!-- <head>
-      Smartsupp Live Chat script
-<script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'e43c5f60131305692e2233dc2a3c1cd5484cef09';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-</script>
-<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
-    </head> -->
-    <v-app>
-      <head>
-        <head>
-          <!-- Smartsupp Live Chat script -->
-          <script type="text/javascript">
-            var _smartsupp = _smartsupp || {}
-            _smartsupp.key = 'cbb37b6034ce2c6d793443b75257a3636102c9c1'
-            window.smartsupp ||
-              (function (d) {
-                var s,
-                  c,
-                  o = (smartsupp = function () {
-                    o._.push(arguments)
-                  })
-                o._ = []
-                s = d.getElementsByTagName('script')[0]
-                c = d.createElement('script')
-                c.type = 'text/javascript'
-                c.charset = 'utf-8'
-                c.async = true
-                c.src = 'https://www.smartsuppchat.com/loader.js?'
-                s.parentNode.insertBefore(c, s)
-              })(document)
-          </script>
-          <!-- <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript> -->
-        </head>
-      </head>
+  
+    <head>
+      <!-- Smartsupp Live Chat script -->
+      <script type="text/javascript">
+        var _smartsupp = _smartsupp || {}
+        _smartsupp.key = '0578727af992fe9663cc0e8441a4e64ed2bc6f1f'
+        window.smartsupp ||
+          (function (d) {
+            var s,
+              c,
+              o = (smartsupp = function () {
+                o._.push(arguments)
+              })
+            o._ = []
+            s = d.getElementsByTagName('script')[0]
+            c = d.createElement('script')
+            c.type = 'text/javascript'
+            c.charset = 'utf-8'
+            c.async = true
+            c.src = 'https://www.smartsuppchat.com/loader.js?'
+            s.parentNode.insertBefore(c, s)
+          })(document)
+      </script>
+      <!-- <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript> -->
+    </head>
       <v-app-bar height="50" class="transparent" flat app>
         <v-app-bar-nav-icon
           class=""
@@ -228,7 +211,7 @@ export default {
         {
           src: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js',
         },
-        { src: '//code.tidio.co/qc5ystiutmlibbwy8kwjiowojguioxts.js' },
+        // { src: '//code.tidio.co/qc5ystiutmlibbwy8kwjiowojguioxts.js' },
       ],
     }
   },

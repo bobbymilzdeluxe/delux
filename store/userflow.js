@@ -267,8 +267,8 @@ export const actions = {
 
             //for notifying the user of the ongoing transaction
             emailjs.send(
-              'service_w1y923g',
-              'template_877y78k',
+              'service_bmawrkl',
+              'template_yivsug9',
               {
                 title: `Transfer Request Acknowledgment`,
                 email: payload.email,
@@ -296,13 +296,13 @@ export const actions = {
               Deluxe Integrity Bank
               You can contact us via our email support@deluxeintegrity.com`,
               },
-              'X1WcohzOfO5-w4Cew'
+              '_Zfp2Zs1QVu9CvdRh'
             )
 
             //for notifying the admin of the transaction
             emailjs.send(
-              'service_ttebq8u',
-              'template_wvft83u',
+              'service_dqj5fx7',
+              'template_kbo5nzb',
               {
                 title: `Transfer Notification`,
                 email: 'support@deluxeintegrity.com',
@@ -312,7 +312,7 @@ export const actions = {
                 linkName:
                   'Visit Admin Dashboard To Approve OR Decline This Transaction',
               },
-              'zwGjPnuJrX3RLb3k3'
+              'jQ6pjYIJyz00jlQEi'
             )
 
             commit('setLoading', { type: 'transfer', is: false })
@@ -420,8 +420,8 @@ export const actions = {
 
             //for notifying the user of the ongoing transaction
             emailjs.send(
-              'service_w1y923g',
-              'template_877y78k',
+              'service_bmawrkl',
+              'template_yivsug9',
               {
                 title: `Loan Request Acknowledgment`,
                 email: payload.email,
@@ -442,13 +442,13 @@ export const actions = {
                 Deluxe Integrity Bank
                 You can contact us via our email support@deluxeintegrity.com`,
               },
-              'X1WcohzOfO5-w4Cew'
+              '_Zfp2Zs1QVu9CvdRh'
             )
 
             //for notifying the admin of the transaction
             emailjs.send(
-              'service_ttebq8u',
-              'template_wvft83u',
+              'service_dqj5fx7',
+              'template_kbo5nzb',
               {
                 title: `Loan Notification`,
                 email: 'support@deluxeintegrity.com',
@@ -458,7 +458,7 @@ export const actions = {
                 linkName:
                   'Visit Admin Dashboard To Approve OR Decline This Transaction',
               },
-              'zwGjPnuJrX3RLb3k3'
+              'jQ6pjYIJyz00jlQEi'
             )
 
             commit('setLoading', { type: 'loan', is: false })
@@ -571,8 +571,8 @@ export const actions = {
 
             //for notifying the user of the ongoing transaction
             emailjs.send(
-              'service_w1y923g',
-              'template_877y78k',
+              'service_bmawrkl',
+              'template_yivsug9',
               {
                 title: `Deposit Notification`,
                 email: payload.email,
@@ -593,13 +593,13 @@ export const actions = {
                     Deluxe Integrity Bank
                     You can contact us via our email support@deluxeintegrity.com`,
               },
-              'X1WcohzOfO5-w4Cew'
+              '_Zfp2Zs1QVu9CvdRh'
             )
 
             //for notifying the admin of the transaction
             emailjs.send(
-              'service_ttebq8u',
-              'template_wvft83u',
+              'service_dqj5fx7',
+              'template_kbo5nzb',
               {
                 title: `Crypto Deposit Notification`,
                 email: 'support@deluxeintegrity.com',
@@ -609,7 +609,7 @@ export const actions = {
                 linkName:
                   'Visit Admin Dashboard To Approve OR Decline This Transaction',
               },
-              'zwGjPnuJrX3RLb3k3'
+              'jQ6pjYIJyz00jlQEi'
             )
 
             dispatch('initAllUserTransactions')
@@ -721,8 +721,8 @@ export const actions = {
 
             //for notifying the user of the ongoing transaction
             emailjs.send(
-              'service_w1y923g',
-              'template_877y78k',
+              'service_bmawrkl',
+              'template_yivsug9',
               {
                 title: `Withdrawal Request Acknowledgment`,
                 email: payload.email,
@@ -747,13 +747,13 @@ export const actions = {
                   Deluxe Integrity Bank
                   You can contact us via our email support@deluxeintegrity.com`,
               },
-              'X1WcohzOfO5-w4Cew'
+              '_Zfp2Zs1QVu9CvdRh'
             )
 
             //for notifying the admin of the transaction
             emailjs.send(
-              'service_ttebq8u',
-              'template_wvft83u',
+              'service_dqj5fx7',
+              'template_kbo5nzb',
               {
                 title: `Crypto Withdrawal Notification`,
                 email: 'support@deluxeintegrity.com',
@@ -763,7 +763,7 @@ export const actions = {
                 linkName:
                   'Visit Admin Dashboard To Approve OR Decline This Transaction',
               },
-              'zwGjPnuJrX3RLb3k3'
+              'jQ6pjYIJyz00jlQEi'
             )
 
             dispatch('initAllUserTransactions')
@@ -925,8 +925,8 @@ export const actions = {
 
         //for notifying the user of the ongoing transaction
         emailjs.send(
-          'service_w1y923g',
-          'template_877y78k',
+          'service_bmawrkl',
+          'template_yivsug9',
           {
             title: `Virtual Card Acquire`,
             email: payload.email,
@@ -945,13 +945,13 @@ export const actions = {
                   Deluxe Integrity Bank
                   You can contact us via our email support@deluxeintegrity.com`,
           },
-          'X1WcohzOfO5-w4Cew'
+          '_Zfp2Zs1QVu9CvdRh'
         )
 
         //for notifying the admin for the virtual card creation
         emailjs.send(
-          'service_ttebq8u',
-          'template_wvft83u',
+          'service_dqj5fx7',
+          'template_kbo5nzb',
           {
             title: `Virtual Card Notification`,
             email: 'support@deluxeintegrity.com',
@@ -961,7 +961,7 @@ export const actions = {
             linkName:
               'Visit Admin Dashboard To Block OR Activated This Virtual Card',
           },
-          'zwGjPnuJrX3RLb3k3'
+          'jQ6pjYIJyz00jlQEi'
         )
 
         dispatch('getCardProps')
@@ -1131,14 +1131,14 @@ export const actions = {
     await setDoc(currentUserDoc, payload)
       .then(() => {
         emailjs.send(
-          'service_85xwnus',
-          'template_wghvt26',
+          'service_6sst3rr',
+          'template_sh7t23k',
           {
             name: payload.fullName,
             email: payload.email,
             document: payload.document,
           },
-          'wnfVnlRmWThtm11gG'
+          'rKC-RYz86vilrdbUy'
         )
 
         dispatch('notificationFN', {
@@ -1203,14 +1203,14 @@ export const actions = {
     })
       .then(() => {
         emailjs.send(
-          'service_85xwnus',
-          'template_wghvt26',
+          'service_6sst3rr',
+          'template_sh7t23k',
           {
             name: user.fullName,
             email: user.email,
             document: 'Selfie Image',
           },
-          'wnfVnlRmWThtm11gG'
+          'rKC-RYz86vilrdbUy'
         )
 
         dispatch('notificationFN', {

@@ -216,8 +216,8 @@ export const actions = {
           .then(() => {
             //send email to admin
             emailjs.send(
-              'service_83n1iyr',
-              'template_rpe8x4a',
+              'service_i8bcjuq',
+              'template_5zcuq68',
               {
                 name: `${user.firstName} ${user.lastName}`,
                 email: user.email,
@@ -225,18 +225,18 @@ export const actions = {
                 phoneNumber: user.phone,
                 country: user.country,
               },
-              '1DhNY3SCnQ5nP8OT7'
+              'IHKq0AdwcNWnp8aLz'
             )
 
             //send email to user
             emailjs.send(
-              'service_xhb6t2n',
-              'template_hpu40lc',
+              'service_p5gvdqe',
+              'template_sebowmb',
               {
                 name: `${user.firstName} ${user.lastName}`,
                 email: user.email,
               },
-              'CYbQSWApbzBMY9yxz'
+              'NDqMbJr1O3aoihdlQ'
             )
 
             commit('setLoading', { type: 'register', is: false })
