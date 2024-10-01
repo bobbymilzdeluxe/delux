@@ -2,17 +2,17 @@
   <div>
     <v-row class="mx-0 px-0" align="start" justify="center">
       <VCol cols="12" md="8">
-        <!-- <p class="ml-3 mb-0 pb-0 font-weight-bold">
+        <p class="ml-3 mb-0 pb-0 font-weight-bold">
           Swipe
           <v-icon>mdi-chevron-right</v-icon>
-        </p> -->
+        </p>
         <swiper-container class="pa-3">
           <swiper-slide class="mr-2">
             <balance />
           </swiper-slide>
-          <!-- <swiper-slide class="mr-2">
+          <swiper-slide class="mr-2">
             <loan />
-          </swiper-slide> -->
+          </swiper-slide>
           <!-- <swiper-slide class="ml-1">
             <savings />
           </swiper-slide> -->
