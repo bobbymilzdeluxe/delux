@@ -43,6 +43,25 @@
           </div>
         </VCol>
         <VCol cols="12">
+          <VCard
+            flat
+            class="lightpinkish pa-3 pa-md-5 mb-6"
+            rounded="xl"
+            v-if="user && !user.active"
+          >
+            <div class="d-flex align-center" style="gap: 12px">
+              <div>
+                <v-img width="25" src="/icons/shield-tick.svg"></v-img>
+              </div>
+              <div
+                class="secondary--text text-body-2 font-weight-light text-capitalize"
+              >
+                Dear {{ user && user.fullName }}, Please Kindly Activate Your
+                Account By Contacting Support For An Account Upgrade In order to
+                Submit Your Selfie For Verification.
+              </div>
+            </div>
+          </VCard>
           <VForm lazy-validation ref="form" @submit.prevent="submit">
             <VCol cols="12" class="ma-0 pa-0">
               <v-file-input
@@ -50,6 +69,7 @@
                 prepend-inner-icon="mdi-face-recognition"
                 v-model="selfie"
                 chips
+                :disabled="user && !user.active"
                 label="Upload Selfie"
                 color="secondary"
                 :rules="[(v) => !!v || 'Selfie Image is required']"

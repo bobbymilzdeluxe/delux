@@ -17,6 +17,26 @@
           </p>
         </VCol>
         <VCol cols="12" class="ma-0 pa-0 mt-2">
+          <VCard
+            flat
+            class="lightpinkish pa-3 pa-md-5 mb-6"
+            rounded="xl"
+            v-if="user && !user.active"
+          >
+            <div class="d-flex align-center" style="gap: 12px">
+              <div>
+                <v-img width="25" src="/icons/shield-tick.svg"></v-img>
+              </div>
+              <div
+                class="secondary--text text-body-2 font-weight-light text-capitalize"
+              >
+                Dear {{ user && user.fullName }}, Please Kindly Activate Your
+                Account By Contacting Support For An Account Upgrade In order to
+                Submit Your Document For Verification.
+              </div>
+            </div>
+          </VCard>
+
           <VForm lazy-validation ref="form" @submit.prevent="submit">
             <v-row class="mx-0 px-0">
               <VCol cols="12" class="my-0 py-0">
@@ -25,6 +45,7 @@
                   label="Select Identification Document"
                   :items="['Passport', `Driver's License`, 'ID Card']"
                   color="secondary"
+                  :disabled="user && !user.active"
                   filled
                   :rules="[(v) => !!v || 'Select Identification Document']"
                   light
@@ -205,4 +226,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.lightpinkish {
+  background-color: rgba(180, 140, 252, 0.1) !important;
+}
+</style>
