@@ -3,7 +3,7 @@
     <VCard flat rounded="lg" class="wavy3 accent pa-4 pa-md-4">
       <div class="d-flex justify-space-between align-center">
         <p
-          class="white--text font-weight-light text-body-2 text-md-body-1 texting"
+          class="white--text font-weight-bold text-body-2 text-md-body-1 texting"
         >
           {{ user && user.fullName }} Balance
         </p>
@@ -141,7 +141,7 @@ export default {
 .pinkish {
   background-color: rgb(90, 8, 131);
 }
-.blue{
-  color : #add8e6;
+.blue {
+  color: #add8e6;
 }
 </style>
