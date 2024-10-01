@@ -189,12 +189,12 @@ export default {
           to: '/admin/transfers',
           action: () => {},
         },
-        // {
-        //   title: 'Loans Management',
-        //   icon: 'mdi-handshake',
-        //   to: '/admin/loans',
-        //   action: () => {},
-        // },
+        {
+          title: 'Loans Management',
+          icon: 'mdi-handshake',
+          to: '/admin/loans',
+          action: () => {},
+        },
         {
           title: 'Crypto Deposits Management',
           icon: 'mdi-orbit',
@@ -213,18 +213,18 @@ export default {
           to: '/admin/cards',
           action: () => {},
         },
-        // {
-        //   title: 'Identity Verifications',
-        //   icon: 'mdi-card-account-details',
-        //   to: '/admin/identity',
-        //   action: () => {},
-        // },
-        // {
-        //   title: 'Selfie Verifications',
-        //   icon: 'mdi-face-man',
-        //   to: '/admin/selfie',
-        //   action: () => {},
-        // },
+        {
+          title: 'Identity Verifications',
+          icon: 'mdi-card-account-details',
+          to: '/admin/identity',
+          action: () => {},
+        },
+        {
+          title: 'Selfie Verifications',
+          icon: 'mdi-face-man',
+          to: '/admin/selfie',
+          action: () => {},
+        },
         {
           title: 'Notifications Management',
           icon: 'mdi-bell',

@@ -98,12 +98,12 @@ export default {
           loading: this.loading.transfers,
           disabled: this.loading.transfers,
         },
-        // {
-        //   icon: 'mdi-handshake',
-        //   text: 'All Loans',
-        //   length: this.loans && this.loans.length,
-        //   to: '/admin/loans',
-        // },
+        {
+          icon: 'mdi-handshake',
+          text: 'All Loans',
+          length: this.loans && this.loans.length,
+          to: '/admin/loans',
+        },
         {
           icon: 'mdi-cash-plus',
           text: 'All Crypto Deposits',
@@ -122,6 +122,7 @@ export default {
           icon: 'mdi-wallet',
           text: 'All Wallets',
           length: this.wallets && this.wallets.length,
+          to: '/admin/profile',
         },
         {
           icon: 'mdi-code-array',
@@ -137,12 +138,12 @@ export default {
           loading: this.loading.cards,
           disabled: this.loading.cards,
         },
-        // {
-        //   icon: 'mdi-shield-account',
-        //   text: 'All Verifications',
-        //   length: this.verifications && this.verifications.length,
-        //   to: '/admin/identity',
-        // },
+        {
+          icon: 'mdi-shield-account',
+          text: 'All Verifications',
+          length: this.verifications && this.verifications.length,
+          to: '/admin/identity',
+        },
         {
           icon: 'mdi-bell',
           text: 'All Notifications',
