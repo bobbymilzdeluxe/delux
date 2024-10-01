@@ -26,6 +26,26 @@
       </VCol>
       <VCol cols="12" md="6">
         <VCard
+          flat
+          class="lightpinkish pa-3 pa-md-5 mx-3 mt-5"
+          rounded="xl"
+          v-if="user && !user.active"
+        >
+          <div class="d-flex align-center" style="gap: 12px">
+            <div>
+              <v-img width="25" src="/icons/shield-tick.svg"></v-img>
+            </div>
+            <div
+              class="secondary--text text-body-2 font-weight-light text-capitalize"
+            >
+              Dear {{ user && user.fullName }}, Please Kindly Activate Your
+              Account By Contacting Support For An Account Upgrade In order to
+              Deposit..
+            </div>
+          </div>
+        </VCard>
+
+        <VCard
           color="grey lighten-4"
           flat
           rounded="lg"
@@ -36,6 +56,7 @@
             <VCardText class="my-0 py-0">
               <VSelect
                 :items="wallets"
+                :disabled="user && !user.active"
                 v-model="wallet"
                 label="Please Select The Wallet You Want To Deposit To"
                 item-text="walletName"
