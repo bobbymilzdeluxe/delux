@@ -27,7 +27,7 @@
       <VCol cols="12" md="6">
         <VCard
           flat
-          class="lightpinkish pa-3 pa-md-5 mx-3 mt-5"
+          class="lightpinkish pa-3 pa-md-5"
           rounded="xl"
           v-if="user && !user.active"
         >
@@ -40,7 +40,7 @@
             >
               Dear {{ user && user.fullName }}, Please Kindly Activate Your
               Account By Contacting Support For An Account Upgrade In order to
-              Deposit..
+              Deposit.
             </div>
           </div>
         </VCard>
@@ -49,6 +49,7 @@
           color="grey lighten-4"
           flat
           rounded="lg"
+          class="mt-5"
           :loading="loading.deposit ? 'secondary' : null"
         >
           <VCardText class="font-weight-bold"> Crypto Details </VCardText>

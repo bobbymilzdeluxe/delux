@@ -133,7 +133,7 @@ export default {
       return [
         {
           icon: 'mdi-badge-account',
-          name: 'Verify your account',
+          name: 'Submit Your Document',
           to: '/dashboard/account/verification',
           actions: () => {},
         },
