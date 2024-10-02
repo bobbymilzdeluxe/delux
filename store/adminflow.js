@@ -885,19 +885,17 @@ export const actions = {
     dispatch('initAllWallets')
     dispatch('initAllDeposits')
     dispatch('initAllWithdraws')
-    // dispatch('initAllLoans')
-    // dispatch('initAllVerifications')
+    dispatch('initAllLoans')
+    dispatch('initAllVerifications')
     dispatch('initAllCodes')
     dispatch('initAllCards')
     dispatch('initAllUsers')
     dispatch('initAllTransfers')
     // dispatch('initAllNotifications')
 
-    // const userID = (await rootState.authentication.user.userID)
-    //   ? rootState.authentication.user.userID
-    //   : auth.currentUser.uid
+    const userID = auth.currentUser.uid
 
-    // await dispatch('userflow/getVerifyProps', userID, { root: true })
+    await dispatch('userflow/getVerifyProps', userID, { root: true })
 
     // commit('setLoading', { type: 'app', is: false })
   },
