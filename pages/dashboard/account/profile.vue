@@ -105,11 +105,11 @@ export default {
           name: 'Personal details',
           state: 'personal',
         },
-        {
-          icon: '/icons/Pidentification.svg',
-          name: 'Identification details',
-          state: 'identification',
-        },
+        // {
+        //   icon: '/icons/Pidentification.svg',
+        //   name: 'Identification details',
+        //   state: 'identification',
+        // },
         {
           icon: '/icons/Presidence.svg',
           name: 'Residential details',
