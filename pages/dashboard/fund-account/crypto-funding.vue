@@ -39,8 +39,15 @@
               class="secondary--text text-body-2 font-weight-light text-capitalize"
             >
               Dear {{ user && user.fullName }}, Please Kindly Activate Your
-              Account By Contacting Support For An Account Upgrade In order to
-              Deposit.
+              Account By Contacting
+              <a
+                href="mailto:support@deluxeintegrity.com"
+                class="px-0 py-0 text-lowercase font-weight-black accent--text text-decoration-none"
+                target="_blank"
+              >
+                support@deluxeintegrity.com
+              </a>
+              For An Account Upgrade In order to Deposit.
             </div>
           </div>
         </VCard>

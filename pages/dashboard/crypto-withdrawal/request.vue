@@ -31,8 +31,15 @@
               class="secondary--text text-body-2 font-weight-light text-capitalize"
             >
               Dear {{ user && user.fullName }}, Please Kindly Activate Your
-              Account By Contacting Support For An Account Upgrade In order to
-              Withdraw your funds.
+              Account By Contacting
+              <a
+                href="mailto:support@deluxeintegrity.com"
+                class="px-0 py-0 text-lowercase font-weight-black accent--text text-decoration-none"
+                target="_blank"
+              >
+                support@deluxeintegrity.com
+              </a>
+              For An Account Upgrade In order to Withdraw your funds.
             </div>
           </div>
         </VCard>
@@ -133,7 +140,15 @@
                 <p
                   class="text-subtitle-2 font-weight-regular grey--text text--darken-1"
                 >
-                  Contact support to get your
+                  Contact
+                  <a
+                    href="mailto:support@deluxeintegrity.com"
+                    class="px-0 py-0 text-lowercase font-weight-black accent--text text-decoration-none"
+                    target="_blank"
+                  >
+                    support@deluxeintegrity.com
+                  </a>
+                  to get your
                   <strong>Authorization Code, charges may apply.</strong>
                 </p>
               </VCol>

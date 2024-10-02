@@ -177,14 +177,28 @@
         </VCardText>
         <VCardText v-if="card && !card.active">
           <p class="accent--text font-weight-medium">
-            This Card is Not Yet Active, Please Contact Support To Activate Your
-            Card
+            This Card is Not Yet Active, Please Contact
+            <a
+              href="mailto:support@deluxeintegrity.com"
+              class="px-0 py-0 text-lowercase font-weight-black accent--text text-decoration-none"
+              target="_blank"
+            >
+              support@deluxeintegrity.com
+            </a>
+            To Activate Your Card
           </p>
         </VCardText>
         <VCardText v-if="card && card.blocked">
           <p class="accent--text font-weight-medium">
-            This Card Has Been Blocked, Please Contact Support For More
-            Enquires.
+            This Card Has Been Blocked, Please Contact
+            <a
+              href="mailto:support@deluxeintegrity.com"
+              class="px-0 py-0 text-lowercase font-weight-black accent--text text-decoration-none"
+              target="_blank"
+            >
+              support@deluxeintegrity.com
+            </a>
+            For More Enquires.
           </p>
         </VCardText>
       </VCol>
