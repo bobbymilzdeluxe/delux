@@ -134,8 +134,8 @@ export default {
 
 <style scoped>
 .wavy3 {
-  background-image: url(@/static/wave6.png);
-  /*background-image: url(https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/64628f1aba6705db8e3715ce_curved%20shape.webp);*/
+  /*background-image: url(@/static/wave6.png);*/
+  background-image: url(https://assets-global.website-files.com/6453bf08503f6d73d5ffe98e/64628f1aba6705db8e3715ce_curved%20shape.webp);
   background-position: bottom center;
   background-size: auto;
 }
