@@ -783,6 +783,7 @@ export const actions = {
             //   { root: true }
             // )
             dispatch('initAllUsers')
+            // dispatch('userflow/getVerifyProps', payload.userID, { root: true })
           })
           .catch((error) => {
             dispatch(
@@ -895,7 +896,7 @@ export const actions = {
 
     const userID = auth.currentUser.uid
 
-    await dispatch('userflow/getVerifyProps', userID, { root: true })
+    // await dispatch('userflow/getVerifyProps', userID, { root: true })
 
     // commit('setLoading', { type: 'app', is: false })
   },
