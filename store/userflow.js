@@ -1098,6 +1098,7 @@ export const actions = {
       if (docRef.exists()) {
         const verifyProps = docRef.data()
         commit('setState', { type: 'verify', value: verifyProps })
+        console.log(verifyProps, 'props gotten')
       } else {
         commit('setState', { type: 'verify', value: null })
         console.log(state.verify, 'no props gotten')

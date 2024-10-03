@@ -34,13 +34,7 @@
           <VBtn
             color="secondary "
             class="text-capitalize"
-            :disabled="
-              verify &&
-              verify.documentStatus == 'approved' &&
-              verify.selfieStatus == 'approved'
-                ? false
-                : true
-            "
+            :disabled="verify"
             @click="show1 = false"
             >Get a loan</VBtn
           >
@@ -87,17 +81,7 @@
         </div>
       </VCol>
     </v-row>
-    <v-row
-      class="mx-0 px-0"
-      justify="center"
-      v-if="
-        verify &&
-        verify.documentStatus == 'approved' &&
-        verify.selfieStatus == 'approved'
-          ? false
-          : true
-      "
-    >
+    <v-row class="mx-0 px-0" justify="center" v-if="verify">
       <VCol cols="12" md="6">
         <VCard flat outlined rounded="lg">
           <VCardText
@@ -136,15 +120,22 @@ export default {
     ...mapGetters({
       user: 'authentication/getUser',
       fundState: 'userflow/getFundState',
-      state: 'adminflow/getState',
+      state: 'userflow/getState',
     }),
 
     verify() {
-      const verifications = this.state('allVerifications')
-      const verify = verifications.find((verify) => {
-        return verify.id == (this.user && this.user.userID)
-      })
-      return verify
+      const verification = this.state('verify')
+      // const verify = verification.find((verify) => {
+      //   return verify.id == (this.user && this.user.userID)
+      // })
+
+      if (
+        verification &&
+        verification.selfieStatus == 'approved' &&
+        verification.documentStatus == 'approved'
+      )
+        return false
+      else return true
     },
 
     terms() {

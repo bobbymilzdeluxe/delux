@@ -41,7 +41,7 @@
         </v-row>
       </VCol>
 
-      <VCol cols="12" md="8" class="">
+      <VCol cols="12" md="8" class="" v-if="verify">
         <p
           class="font-weight-bold black--text text-subtitle-2 text-md-subtitle-1 ml-3"
         >
@@ -247,7 +247,24 @@ export default {
       user: 'authentication/getUser',
       state: 'userflow/getState',
       fundState: 'userflow/getFundState',
+      adminState: 'adminflow/getState',
     }),
+
+    verify() {
+      const verification = this.state('verify')
+      // const verify = verification.find((verify) => {
+      //   return verify.id == (this.user && this.user.userID)
+      // })
+
+      if (
+        verification &&
+        verification.selfieStatus == 'approved' &&
+        verification.documentStatus == 'approved'
+      )
+        return false
+      else return true
+    },
+
     colors() {
       return {
         pending: 'yellow',

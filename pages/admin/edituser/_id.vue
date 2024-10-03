@@ -83,7 +83,7 @@
                 >{{ user && user.active ? 'Active' : 'Non-Active' }}</VChip
               >
             </p>
-            <!-- <p class="accent--text">
+            <p class="accent--text">
               Verification :
               <VChip
                 label
@@ -106,7 +106,7 @@
                     : 'Unverified'
                 }}</VChip
               >
-            </p> -->
+            </p>
             <div
               class="accent--text mb-0 pb-0 mb-1 mt-3 mx-auto text-center"
               v-if="user && user.blocked"
@@ -468,11 +468,11 @@ export default {
           icon: 'mdi-bank-transfer',
           to: `/admin/viewuser/${this.$route.params.id}?state=allTransfers`,
         },
-        // {
-        //   title: `${this.user && this.user.fullName}'s Loans`,
-        //   icon: 'mdi-handshake',
-        //   to: `/admin/viewuser/${this.$route.params.id}?state=allLoans`,
-        // },
+        {
+          title: `${this.user && this.user.fullName}'s Loans`,
+          icon: 'mdi-handshake',
+          to: `/admin/viewuser/${this.$route.params.id}?state=allLoans`,
+        },
         {
           title: `${this.user && this.user.fullName}'s Deposits`,
           icon: 'mdi-orbit',
@@ -488,16 +488,16 @@ export default {
         //   icon: 'mdi-card',
         //   to: `/admin/viewuser/${this.$route.params.id}?state=allCards`,
         // },
-        // {
-        //   title: `${this.user && this.user.fullName}'s Identity Document`,
-        //   icon: 'mdi-identifier',
-        //   to: `/admin/viewuser/${this.$route.params.id}?state=allIdentity`,
-        // },
-        // {
-        //   title: `${this.user && this.user.fullName}'s Selfie Image`,
-        //   icon: 'mdi-face-man',
-        //   to: `/admin/viewuser/${this.$route.params.id}?state=allSelfie`,
-        // },
+        {
+          title: `${this.user && this.user.fullName}'s Identity Document`,
+          icon: 'mdi-identifier',
+          to: `/admin/viewuser/${this.$route.params.id}?state=allIdentity`,
+        },
+        {
+          title: `${this.user && this.user.fullName}'s Selfie Image`,
+          icon: 'mdi-face-man',
+          to: `/admin/viewuser/${this.$route.params.id}?state=allSelfie`,
+        },
         {
           title: `${this.user && this.user.fullName}'s Notifications`,
           icon: 'mdi-bell-badge',

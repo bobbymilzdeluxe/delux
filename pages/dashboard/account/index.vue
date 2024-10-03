@@ -31,24 +31,12 @@
               </p>
               <p class="mb-0 pb-0">
                 <VBtn
-                  :color="
-                    verify &&
-                    verify.documentStatus == 'approved' &&
-                    verify.selfieStatus == 'approved'
-                      ? 'green'
-                      : 'red'
-                  "
+                  :color="verify ? 'green' : 'red'"
                   text
                   class="ma-0 pa-0"
                   :ripple="false"
                   small
-                  >{{
-                    verify &&
-                    verify.documentStatus == 'approved' &&
-                    verify.selfieStatus == 'approved'
-                      ? 'Verified'
-                      : 'Unverified'
-                  }}</VBtn
+                  >{{ verify ? 'Verified' : 'Unverified' }}</VBtn
                 >
               </p>
             </div>
@@ -118,15 +106,22 @@ export default {
   computed: {
     ...mapGetters({
       user: 'authentication/getUser',
-      state: 'adminflow/getState',
+      state: 'userflow/getState',
     }),
 
     verify() {
-      const verifications = this.state('allVerifications')
-      const verify = verifications.find((verify) => {
-        return verify.id == (this.user && this.user.userID)
-      })
-      return verify
+      const verification = this.state('verify')
+      // const verify = verification.find((verify) => {
+      //   return verify.id == (this.user && this.user.userID)
+      // })
+
+      if (
+        verification &&
+        verification.selfieStatus == 'approved' &&
+        verification.documentStatus == 'approved'
+      )
+        return true
+      else return false
     },
 
     accountLinks() {
