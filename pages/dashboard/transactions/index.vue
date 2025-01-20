@@ -465,7 +465,7 @@ export default {
         11: 'November',
         12: 'December',
       }
-      return `${sections[0]} ${months[sections[1]]} 2024`
+      return `${sections[0]} ${months[sections[1]]} 2025`
     },
     closeModal() {
       this.dialog = false
