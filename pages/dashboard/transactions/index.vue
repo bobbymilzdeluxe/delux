@@ -102,7 +102,7 @@
             flat
           >
             <p class="font-weight-bold grey--text text--darken-1">
-              {{ formatDate(transact.date.slice(9)) }}
+              <!-- {{ formatDate(transact.date.slice(9)) }} -->
             </p>
             <div class="d-flex align-center" style="gap: 9px">
               <div>
