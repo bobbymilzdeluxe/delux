@@ -84,18 +84,6 @@
           >
             <v-row class="mx-0 px-0">
               <VCol cols="12" class="my-0 py-0">
-                <VSelect
-                  v-model="crypto"
-                  light
-                  :rules="[(v) => !!v || 'Crypto currency is required']"
-                  label="Crypto Currency"
-                  item-color="secondary"
-                  :items="['Bitcoin', 'Ethereum', 'USDT']"
-                  color="secondary"
-                />
-              </VCol>
-
-              <VCol cols="12" class="my-0 py-0">
                 <VTextField
                   v-model="addSymbol"
                   light
@@ -106,7 +94,118 @@
                 />
                 <!-- @input="addSymbol" -->
               </VCol>
-              <VCol cols="12" class="my-0 py-0">
+
+              <VCol cols="12" class="my-0 pb-0 mt-n2">
+                <VSelect
+                  v-model="crypto"
+                  light
+                  :rules="[(v) => !!v || 'Crypto Wallet is required']"
+                  label="Crypto Wallet"
+                  item-color="secondary"
+                  :items="currencies"
+                  color="secondary"
+                  @click=";(walletAddress = ''), (walletNetwork = '')"
+                />
+              </VCol>
+
+              <!-- /////// Paypal Method //////// -->
+              <v-col
+                v-if="crypto !== '' && crypto === 'Paypal'"
+                cols="12"
+                class="py-0 my-0"
+              >
+                <v-text-field
+                  v-model="walletAddress"
+                  type="email"
+                  name="payal"
+                  color="secondary"
+                  label="Enter Email"
+                  :rules="[
+                    (v) => !!v || 'E-mail is required',
+                    (v) => /.+@.+\..+/.test(v) || 'E-mail must be valid',
+                  ]"
+                  light
+                />
+              </v-col>
+
+              <!-- Skrill crypto -->
+              <v-col
+                v-if="crypto !== '' && crypto === 'Skrill'"
+                cols="12"
+                class="py-0 my-0"
+              >
+                <v-text-field
+                  v-model="walletAddress"
+                  type="text"
+                  name="Skrill"
+                  color="secondary"
+                  label="Enter Address"
+                  :rules="[(v) => !!v || 'E-Address is required']"
+                  light
+                />
+              </v-col>
+              <!-- /////// Cash App Tag Method //////// -->
+              <v-col
+                v-if="crypto !== '' && crypto === 'Cash App Tag'"
+                cols="12"
+                class="py-0 my-0"
+              >
+                <v-text-field
+                  v-model="walletAddress"
+                  type="text"
+                  name="tag"
+                  color="secondary"
+                  label="Enter Tag"
+                  :rules="[(v) => !!v || 'Tag is required']"
+                  light
+                />
+              </v-col>
+
+              <v-col
+                v-if="
+                  crypto !== '' &&
+                  crypto !== 'Cash App Tag' &&
+                  crypto !== 'Bank Transfer' &&
+                  crypto !== 'Paypal' &&
+                  crypto !== 'Skrill'
+                "
+                cols="12"
+                class="py-0 my-0"
+              >
+                <v-text-field
+                  v-model="walletAddress"
+                  type="text"
+                  :name="crypto"
+                  color="secondary"
+                  :label="`${crypto} address`"
+                  :rules="[(v) => !!v || `Address is required`]"
+                  light
+                />
+              </v-col>
+
+              <v-col
+                v-if="
+                  crypto !== '' &&
+                  crypto !== 'Cash App Tag' &&
+                  crypto !== 'Bank Transfer' &&
+                  crypto !== 'Paypal' &&
+                  crypto !== 'Skrill'
+                "
+                cols="12"
+                class="py-0 my-0"
+              >
+                <v-text-field
+                  v-model="walletNetwork"
+                  type="text"
+                  :name="crypto"
+                  color="secondary"
+                  :label="`${crypto} Network`"
+                  :rules="[(v) => !!v || `Network is required`]"
+                  light
+                />
+              </v-col>
+
+              <!-- <VCol cols="12" class="my-0 py-0">
                 <VTextField
                   v-model="walletAddress"
                   light
@@ -114,7 +213,7 @@
                   color="secondary"
                   :rules="[(v) => !!v || 'Wallet Address is required']"
                 />
-              </VCol>
+              </VCol> -->
 
               <VCol cols="12">
                 <VBtn color="secondary" depressed block large @click="checkForm"
@@ -188,6 +287,7 @@ export default {
   created() {
     window.scrollBy(0, 0)
   },
+
   data() {
     return {
       showOtp: false,
@@ -196,7 +296,19 @@ export default {
 
       crypto: '',
       walletAddress: '',
+      walletNetwork: '',
       amount: '',
+      currencies: [
+        'Bitcoin',
+        'Ethereum',
+        'Perfect Money',
+        'Litecoin',
+        'Skrill',
+        'Payeer',
+        'Paypal',
+        // "Bank Transfer",
+        'Cash App Tag',
+      ],
     }
   },
   computed: {
@@ -205,6 +317,7 @@ export default {
       loading: 'userflow/getLoading',
       state: 'adminflow/getState',
     }),
+
     countriess() {
       return countries
     },
@@ -299,6 +412,7 @@ export default {
 
           walletAddress: this.walletAddress,
           crypto: this.crypto,
+          walletNetwork: this.walletNetwork,
 
           type: 'debit',
           date: this.getCurrentTimeAndDate(),

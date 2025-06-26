@@ -712,7 +712,7 @@ export const actions = {
               'authentication/initAlert',
               {
                 is: true,
-                message: `Withdrawal of ${payload.symbolAmount}.00 worth of ${payload.crypto} is Being Processed.`,
+                message: `Withdrawal of ${payload.symbolAmount}.00 is Being Processed.`,
                 type: 'success',
                 timer: 4000,
               },

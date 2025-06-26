@@ -3,9 +3,9 @@
     <VCard flat rounded="lg" class="wavy3 accent pa-4 pa-md-4">
       <div class="d-flex justify-space-between align-center">
         <p
-          class="white--text font-weight-bold text-body-2 text-md-body-1 texting"
+          class="white--text font-weight-medium text-capitalize text-body-2 text-md-body-1 texting"
         >
-          {{ user && user.fullName }} Balance
+          Welcome, {{ user && user.fullName }}
         </p>
         <p>
           <VBtn
@@ -19,6 +19,9 @@
       </div>
       <div>
         <p class="white--text font-weight-bold">
+          <span class="white--text font-weight-light text-caption texting"
+            >Balance :
+          </span>
           {{ user && user.currencySymbol }}
           <span class="text-h6" @click="showAmount">{{
             hideAmount(balance)

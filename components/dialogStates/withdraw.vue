@@ -86,6 +86,21 @@
           </VCard>
         </VCol>
 
+        <VCol cols="12" v-if="transact.walletNetwork">
+          <VCard
+            style="box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 5px"
+            rounded="lg"
+            v-if="transact.walletNetwork"
+          >
+            <VCardText class="d-flex justify-space-between">
+              <p class="ma-0 pa-0">Wallet Network</p>
+              <p class="ma-0 pa-0 grey--text text--darken-3 text-capitalize">
+                {{ transact.walletNetwork }}
+              </p>
+            </VCardText>
+          </VCard>
+        </VCol>
+
         <VCol cols="12" v-if="transact.walletAddress">
           <VCard
             style="box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 5px"
@@ -93,7 +108,7 @@
             v-if="transact.walletAddress"
           >
             <VCardText class="d-flex justify-space-between">
-              <p class="ma-0 pa-0">Wallet Address</p>
+              <p class="ma-0 pa-0">Address</p>
               <p class="ma-0 pa-0 grey--text text--darken-3 text-capitalize">
                 {{
                   $vuetify.breakpoint.mdAndDown &&
