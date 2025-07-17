@@ -2,7 +2,7 @@
   <VApp>
     <head>
       <!-- Smartsupp Live Chat script -->
-      <script type="text/javascript">
+      <!-- <script type="text/javascript">
         var _smartsupp = _smartsupp || {}
         _smartsupp.key = '0578727af992fe9663cc0e8441a4e64ed2bc6f1f'
         window.smartsupp ||
@@ -21,7 +21,7 @@
             c.src = 'https://www.smartsuppchat.com/loader.js?'
             s.parentNode.insertBefore(c, s)
           })(document)
-      </script>
+      </script> -->
       <!-- <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript> -->
     </head>
 
@@ -316,7 +316,7 @@ export default {
     return {
       script: [
         { src: 'https://cdn.jsdelivr.net/npm/chart.js' },
-        // { src: '//code.tidio.co/qc5ystiutmlibbwy8kwjiowojguioxts.js' },
+        { src: '//code.jivosite.com/widget/ytQsP9lNiH' },
       ],
     }
   },
